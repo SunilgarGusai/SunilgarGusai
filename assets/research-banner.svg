@@ -1,19 +1,93 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
-  <title id="title">Dr. Sunilgar L. Gusai — Research Banner</title>
-  <desc id="desc">Spectral Graph Theory, Network Science, Molecular Graphs and Reliable Scientific AI</desc>
+  <title id="title">Dr. Sunilgar L. Gusai — Animated Research Banner</title>
+  <desc id="desc">Mathematics to Networks to Reliable AI, with an animated research graph motif.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="0.52" stop-color="#102452"/><stop offset="1" stop-color="#24103f"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5fa7ff"/><stop offset="0.55" stop-color="#8f7bff"/><stop offset="1" stop-color="#d677ff"/></linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111f"/>
+      <stop offset="0.52" stop-color="#102a57"/>
+      <stop offset="1" stop-color="#2d1149"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55c7ff"/>
+      <stop offset="0.52" stop-color="#7f78ff"/>
+      <stop offset="1" stop-color="#e36cff"/>
+    </linearGradient>
+    <linearGradient id="edgeGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#54d4ff"/>
+      <stop offset="0.55" stop-color="#8d8bff"/>
+      <stop offset="1" stop-color="#e278ff"/>
+    </linearGradient>
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cardClip"><rect x="776" y="220" width="356" height="66" rx="15"/></clipPath>
   </defs>
+
   <rect width="1200" height="310" rx="28" fill="url(#bg)"/>
-  <circle cx="1060" cy="55" r="155" fill="#596cff" opacity=".16" filter="url(#glow)"/><circle cx="90" cy="285" r="180" fill="#1fbfe5" opacity=".12" filter="url(#glow)"/>
-  <g stroke="#8fb5e9" stroke-opacity=".22" stroke-width="1.3"><path d="M800 74 L910 44 L1015 96 L1096 58"/><path d="M815 176 L910 44 L966 196 L1096 58"/><path d="M800 74 L815 176 L966 196 L1015 96"/><path d="M910 44 L1015 96 L966 196"/></g>
-  <g fill="#b6d0f5"><circle cx="800" cy="74" r="5"/><circle cx="910" cy="44" r="7"/><circle cx="1015" cy="96" r="5"/><circle cx="1096" cy="58" r="6"/><circle cx="815" cy="176" r="6"/><circle cx="966" cy="196" r="8"/></g>
-  <text x="72" y="86" fill="#9bb4d5" font-size="17" font-family="Arial, Helvetica, sans-serif" letter-spacing="3">MATHEMATICS → NETWORKS → RELIABLE AI</text>
+
+  <circle cx="1040" cy="60" r="165" fill="#5d6dff" opacity=".13" filter="url(#blurGlow)">
+    <animate attributeName="cx" values="1010;1075;1010" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".10;.18;.10" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="85" cy="286" r="180" fill="#15c7e9" opacity=".10" filter="url(#blurGlow)">
+    <animate attributeName="cy" values="292;260;292" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".08;.14;.08" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity=".22" stroke="#97b8ea" stroke-width="1.35" fill="none">
+    <path id="e1" d="M798 78 L910 46 L1018 98 L1098 60"/>
+    <path id="e2" d="M814 175 L910 46 L968 195 L1098 60"/>
+    <path id="e3" d="M798 78 L814 175 L968 195 L1018 98"/>
+    <path id="e4" d="M910 46 L1018 98 L968 195"/>
+  </g>
+
+  <g fill="none" stroke="url(#edgeGlow)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="26 240" opacity=".95">
+    <path d="M798 78 L910 46 L1018 98 L1098 60">
+      <animate attributeName="stroke-dashoffset" values="0;-266" dur="4.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M814 175 L910 46 L968 195 L1098 60">
+      <animate attributeName="stroke-dashoffset" values="0;-266" dur="5.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M798 78 L814 175 L968 195 L1018 98">
+      <animate attributeName="stroke-dashoffset" values="0;-266" dur="5.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#c4dcff" filter="url(#nodeGlow)">
+    <circle cx="798" cy="78" r="5"><animate attributeName="r" values="5;7;5" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="910" cy="46" r="7"><animate attributeName="r" values="7;9;7" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1018" cy="98" r="5"><animate attributeName="r" values="5;7;5" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1098" cy="60" r="6"><animate attributeName="r" values="6;8;6" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="814" cy="175" r="6"><animate attributeName="r" values="6;8;6" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="968" cy="195" r="8"><animate attributeName="r" values="8;10;8" dur="3.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <circle r="4.5" fill="#ffffff" filter="url(#nodeGlow)">
+    <animateMotion dur="6.2s" repeatCount="indefinite" path="M798 78 L910 46 L1018 98 L968 195 L814 175 L798 78"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="6.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="72" y="86" fill="#9fb9dc" font-size="17" font-family="Arial, Helvetica, sans-serif" letter-spacing="3">MATHEMATICS → NETWORKS → RELIABLE AI</text>
   <text x="72" y="148" fill="#ffffff" font-size="43" font-weight="700" font-family="Arial, Helvetica, sans-serif">Dr. Sunilgar L. Gusai</text>
-  <rect x="72" y="170" width="585" height="3" rx="2" fill="url(#accent)"/>
+  <rect x="72" y="170" width="585" height="3" rx="2" fill="url(#accent)">
+    <animate attributeName="opacity" values=".75;1;.75" dur="4s" repeatCount="indefinite"/>
+  </rect>
   <text x="72" y="218" fill="#dbe8fb" font-size="21" font-family="Arial, Helvetica, sans-serif">Spectral Graph Theory · Network Science · Molecular Graphs</text>
-  <text x="72" y="254" fill="#aabbd4" font-size="18" font-family="Arial, Helvetica, sans-serif">Open reproducibility · Scientific ML · QSPR / QSAR · Uncertainty</text>
-  <g transform="translate(775 229)"><rect width="345" height="48" rx="14" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".12"/><text x="20" y="30" fill="#dbe8fb" font-size="15" font-family="Arial, Helvetica, sans-serif">Research that can be inspected, tested &amp; reproduced.</text></g>
+  <text x="72" y="254" fill="#aebfd8" font-size="18" font-family="Arial, Helvetica, sans-serif">Open reproducibility · Scientific ML · QSPR / QSAR · Uncertainty</text>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="776" y="220" width="356" height="66" rx="15" fill="#ffffff" fill-opacity=".075" stroke="#ffffff" stroke-opacity=".16"/>
+    <rect x="777" y="221" width="354" height="64" rx="14" fill="none" stroke="url(#accent)" stroke-opacity=".28">
+      <animate attributeName="stroke-opacity" values=".18;.48;.18" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="796" y="247" fill="#e7f0ff" font-size="14" font-weight="600" font-family="Arial, Helvetica, sans-serif">
+      <tspan x="796" dy="0">Research that can be inspected, tested</tspan>
+      <tspan x="796" dy="20">and reproduced.</tspan>
+    </text>
+  </g>
 </svg>
