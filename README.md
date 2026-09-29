@@ -9,22 +9,26 @@
   <a href="https://linkedin.com/in/dr-sunilgar-gusai"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-<p align="center">
-  <b>Assistant Professor · Ph.D. in Mathematics · Graph Theorist · Computational Researcher</b><br/>
-  <sub>Building from mathematical graph structure to network and molecular systems to reliable scientific AI — with reproducibility, explicit limitations and auditability treated as part of the research record.</sub>
-</p>
+<h3 align="center">Assistant Professor · Ph.D. in Mathematics · Graph Theorist · Computational Researcher</h3>
 
 <p align="center">
-  <img src="assets/focus-ticker.svg" alt="Live rotating research focus" width="100%" />
+Building from <b>mathematical graph structure</b> to <b>network and molecular systems</b> to <b>reliable scientific AI</b> — with reproducibility, explicit limitations and auditability treated as part of the research record.
 </p>
 
-## ◉ Live research pulse
+---
 
-<p align="center">
-  <img src="assets/research-pulse.svg" alt="Auto-updating research pulse" width="100%" />
-</p>
+<!-- RESEARCH-NOW:START -->
+## ◉ Research now
 
-<sub>The pulse is regenerated from my public GitHub repositories by a scheduled GitHub Actions workflow. It is intended as a lightweight research-status signal, not a vanity counter.</sub>
+> **4 public research projects** · **4 research tracks** · **Open reproducibility**
+
+### Recently active
+⚡ **[VELE Power-Grid Vulnerability Screening](https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility)**  
+Latest public push · **28 Sep 2026**
+
+**Research arc**  
+**λ Spectral Graph Theory** → **⌘ Network Resilience** → **⬡ Molecular Graphs & QSPR/QSAR** → **◎ Reliable Scientific AI**
+<!-- RESEARCH-NOW:END -->
 
 ---
 
@@ -33,22 +37,22 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<b>λ Spectral & Structural Graph Theory</b><br/>
-<sub>Graph matrices · graph energy · VELE · spectral bounds · extremal problems · inverse reconstruction</sub>
+<h3>λ Spectral & Structural Graph Theory</h3>
+Graph matrices · graph energy · VELE · spectral bounds · extremal problems · inverse reconstruction
 </td>
 <td width="50%" valign="top">
-<b>⌘ Network Science & Resilience</b><br/>
-<sub>Failure-sensitive screening · power-grid networks · structural–physical validation · interpretable ranking</sub>
+<h3>⌘ Network Science & Resilience</h3>
+Failure-sensitive screening · power-grid networks · structural–physical validation · interpretable ranking
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<b>⬡ Molecular Graphs & QSPR/QSAR</b><br/>
-<sub>Classical graph descriptors · representation degeneracy · EGFR modelling · chemical-space shift</sub>
+<h3>⬡ Molecular Graphs & QSPR/QSAR</h3>
+Classical graph descriptors · representation degeneracy · EGFR modelling · chemical-space shift
 </td>
 <td width="50%" valign="top">
-<b>◎ Reliable Scientific AI</b><br/>
-<sub>Conformal prediction · scientific-rule gating · calibration · uncertainty · reproducible ML</sub>
+<h3>◎ Reliable Scientific AI</h3>
+Conformal prediction · scientific-rule gating · calibration · uncertainty · reproducible ML
 </td>
 </tr>
 </table>
@@ -61,39 +65,40 @@
 
 ## 🔬 Featured open research
 
-### ⚡ VELE Power-Grid Vulnerability Screening
-**Graph theory × network resilience × power systems**  
-Eccentricity-sensitive structural screening evaluated against island-aware DC-flow behaviour across **6 IEEE/MATPOWER systems**, **784 physical branch outages**, **558 single-bus outages**, and **1,692 progressive electrical states**.
-
-[![Repository](https://img.shields.io/badge/Open_Repository-VELE_Power--Grid-2563EB?style=for-the-badge&logo=github)](https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility)
-`MATPOWER 8.1 cross-check` · `DC-flow validation` · `failure-mode transparency` · `frozen release`
-
----
-
-### 🧬 EGFR Graph QSAR — Representation Limits
-**Molecular graphs × QSAR × representation analysis**  
-A matched study of **10,056 EGFR compounds** comparing **19 classical graph invariants**, RDKit2D and ECFP4, with exact descriptor-vector collision analysis showing where extreme topological compression loses chemical identity.
-
-[![Repository](https://img.shields.io/badge/Open_Repository-EGFR_Graph_QSAR-7C3AED?style=for-the-badge&logo=github)](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility)
-`Graph19` · `scaffold validation` · `representation degeneracy` · `chemical-space diagnostics`
-
----
-
-### 🧠 Applicability-Gated Molecular AI
-**Knowledge-guided AI × molecular prediction × applicability**  
-A rule-residual framework that keeps an explicit scientific rule visible as a fallible expert and learns when that rule should be trusted, corrected or audited under chemical-space shift.
-
-[![Repository](https://img.shields.io/badge/Open_Repository-Applicability--Gated_AI-F59E0B?style=for-the-badge&logo=github)](https://github.com/SunilgarGusai/applicability-gated-molecular-ai)
-`AGRR` · `negative controls` · `rule-failure diagnosis` · `external B3DB transfer`
-
----
-
-### 📐 Calibration Transfer of Conformal Prediction
-**Uncertainty × distribution shift × scientific computing**  
-Grouped conformal-prediction experiments across SCM composition regimes using **1,030 observations** and **427 physical mix designs**, with fixed seeds, sensitivity analyses and machine-readable numerical verification.
-
-[![Repository](https://img.shields.io/badge/Open_Repository-Conformal_Prediction-0891B2?style=for-the-badge&logo=github)](https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility)
-`conformal prediction` · `grouped validation` · `support diagnostics` · `reproducible uncertainty`
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>⚡ VELE Power-Grid Vulnerability Screening</h3>
+<b>Graph theory × network resilience × power systems</b><br/><br/>
+Eccentricity-sensitive structural screening tested against island-aware DC-flow behaviour.<br/><br/>
+<b>6</b> IEEE/MATPOWER systems · <b>784</b> branch outages · <b>1,692</b> progressive states<br/><br/>
+<a href="https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility"><b>Explore repository →</b></a>
+</td>
+<td width="50%" valign="top">
+<h3>🧬 EGFR Graph QSAR — Representation Limits</h3>
+<b>Molecular graphs × QSAR × representation analysis</b><br/><br/>
+Matched benchmarking of classical graph invariants, RDKit2D and ECFP4 under chemical-space shift.<br/><br/>
+<b>10,056</b> EGFR compounds · <b>19</b> graph invariants · exact collision analysis<br/><br/>
+<a href="https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility"><b>Explore repository →</b></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🧠 Applicability-Gated Molecular AI</h3>
+<b>Knowledge-guided AI × molecular prediction × applicability</b><br/><br/>
+A rule-residual framework that learns when an explicit scientific rule should be trusted, corrected or audited.<br/><br/>
+<b>AGRR</b> · negative controls · rule-failure diagnosis · external B3DB transfer<br/><br/>
+<a href="https://github.com/SunilgarGusai/applicability-gated-molecular-ai"><b>Explore repository →</b></a>
+</td>
+<td width="50%" valign="top">
+<h3>📐 Calibration Transfer of Conformal Prediction</h3>
+<b>Uncertainty × distribution shift × scientific computing</b><br/><br/>
+Grouped conformal-prediction experiments across SCM composition regimes with fixed seeds and numerical verification.<br/><br/>
+<b>1,030</b> observations · <b>427</b> physical mix designs · grouped validation<br/><br/>
+<a href="https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility"><b>Explore repository →</b></a>
+</td>
+</tr>
+</table>
 
 ---
 
