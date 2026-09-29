@@ -11,21 +11,21 @@ USER = "SunilgarGusai"
 EXCLUDED = {"SunilgarGusai", "sunilgar-portfolio"}
 API = f"https://api.github.com/users/{USER}/repos?per_page=100&sort=pushed"
 README = Path("README.md")
-START = "<!-- RESEARCH-NOW:START -->"
-END = "<!-- RESEARCH-NOW:END -->"
+START = "<!-- OBSERVATORY:START -->"
+END = "<!-- OBSERVATORY:END -->"
 
 DISPLAY = {
-    "VELE-PowerGrid-Reproducibility": ("⚡", "VELE Power-Grid Vulnerability Screening"),
-    "EGFR-Graph-QSAR-Reproducibility": ("🧬", "EGFR Graph QSAR — Representation Limits"),
-    "applicability-gated-molecular-ai": ("🧠", "Applicability-Gated Molecular AI"),
-    "PAPER-JCMM-reproducibility": ("📐", "Calibration Transfer of Conformal Prediction"),
+    "VELE-PowerGrid-Reproducibility": ("⚡", "VELE Power-Grid Vulnerability Screening", "VELE Power-Grid"),
+    "EGFR-Graph-QSAR-Reproducibility": ("🧬", "EGFR Graph QSAR — Representation Limits", "EGFR Graph QSAR"),
+    "applicability-gated-molecular-ai": ("🧠", "Applicability-Gated Molecular AI", "Applicability-Gated Molecular AI"),
+    "PAPER-JCMM-reproducibility": ("📐", "Calibration Transfer of Conformal Prediction", "Conformal Prediction"),
 }
 
 
 def get_repos():
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": f"{USER}-profile-status",
+        "User-Agent": f"{USER}-research-observatory",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     token = os.environ.get("GITHUB_TOKEN")
@@ -36,42 +36,57 @@ def get_repos():
         return json.load(response)
 
 
-def display_name(repo_name: str) -> tuple[str, str]:
+def names(repo_name: str) -> tuple[str, str, str]:
     if repo_name in DISPLAY:
         return DISPLAY[repo_name]
-    return "🔬", repo_name.replace("-Reproducibility", "").replace("-", " ")
+    clean = repo_name.replace("-Reproducibility", "").replace("-", " ")
+    return "🔬", clean, clean
+
+
+def date_for(repo: dict) -> dt.datetime:
+    return dt.datetime.fromisoformat(repo["pushed_at"].replace("Z", "+00:00"))
 
 
 def build_block(research: list[dict]) -> str:
     count = len(research)
-    if research:
-        latest = research[0]
-        pushed = dt.datetime.fromisoformat(latest["pushed_at"].replace("Z", "+00:00"))
-        icon, title = display_name(latest["name"])
-        recent = (
-            "### Recently active\n"
-            f"{icon} **[{title}]({latest['html_url']})**  \n"
-            f"Latest public push · **{pushed.strftime('%d %b %Y')}**"
-        )
-    else:
-        recent = "### Recently active\nNo public research repository is currently available."
+    if not research:
+        return f"""{START}
+## ◉ Current research signal
+
+> **0 public research projects** · **4 connected research directions** · **Open reproducibility**
+
+No public research repository is currently available.
+{END}"""
+
+    latest = research[0]
+    icon, title, _ = names(latest["name"])
+    latest_date = date_for(latest).strftime("%d %b %Y")
+
+    trail_parts = []
+    for repo in research[:3]:
+        _, _, short = names(repo["name"])
+        date_text = date_for(repo).strftime("%d %b")
+        trail_parts.append(f"`{date_text}` **{short}**")
+    trail = " → ".join(trail_parts)
 
     return f"""{START}
-## ◉ Research now
+## ◉ Current research signal
 
-> **{count} public research projects** · **4 research tracks** · **Open reproducibility**
+> **{count} public research projects** · **4 connected research directions** · **Open reproducibility**
 
-{recent}
+### {icon} [{title}]({latest['html_url']})
+**Most recently active public research project** · latest push **{latest_date}**
 
-**Research arc**  
-**λ Spectral Graph Theory** → **⌘ Network Resilience** → **⬡ Molecular Graphs & QSPR/QSAR** → **◎ Reliable Scientific AI**
+**Recent research trail**  
+{trail}
 {END}"""
 
 
 def main():
     repos = get_repos()
     research = [
-        repo for repo in repos
+        repo
+        for repo in repos
         if not repo.get("fork")
         and not repo.get("archived")
         and repo.get("name") not in EXCLUDED
@@ -81,7 +96,7 @@ def main():
     text = README.read_text(encoding="utf-8")
     pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
     if not pattern.search(text):
-        raise RuntimeError("Research Now markers were not found in README.md")
+        raise RuntimeError("Research Observatory markers were not found in README.md")
 
     updated = pattern.sub(build_block(research), text, count=1)
     if updated != text:
