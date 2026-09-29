@@ -9,11 +9,22 @@
   <a href="https://linkedin.com/in/dr-sunilgar-gusai"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-<h3 align="center">Assistant Professor · Ph.D. in Mathematics · Graph Theorist · Computational Researcher</h3>
+<p align="center">
+  <b>Assistant Professor · Ph.D. in Mathematics · Graph Theorist · Computational Researcher</b><br/>
+  <sub>Building from mathematical graph structure to network and molecular systems to reliable scientific AI — with reproducibility, explicit limitations and auditability treated as part of the research record.</sub>
+</p>
 
 <p align="center">
-I develop research from <b>mathematical graph structure</b> to <b>network and molecular systems</b> to <b>reliable scientific AI</b>—with reproducibility, explicit limitations and auditability treated as part of the research record.
+  <img src="assets/focus-ticker.svg" alt="Live rotating research focus" width="100%" />
 </p>
+
+## ◉ Live research pulse
+
+<p align="center">
+  <img src="assets/research-pulse.svg" alt="Auto-updating research pulse" width="100%" />
+</p>
+
+<sub>The pulse is regenerated from my public GitHub repositories by a scheduled GitHub Actions workflow. It is intended as a lightweight research-status signal, not a vanity counter.</sub>
 
 ---
 
@@ -21,52 +32,72 @@ I develop research from <b>mathematical graph structure</b> to <b>network and mo
 
 <table>
 <tr>
-<td width="25%" valign="top"><b>λ Spectral & Structural Graph Theory</b><br/><sub>Graph matrices · graph energy · VELE · spectral bounds · extremal problems · inverse reconstruction</sub></td>
-<td width="25%" valign="top"><b>⌘ Network Science & Resilience</b><br/><sub>Failure-sensitive screening · power-grid networks · structural–physical validation · interpretable ranking</sub></td>
-<td width="25%" valign="top"><b>⬡ Molecular Graphs & QSAR</b><br/><sub>Classical graph descriptors · representation degeneracy · EGFR modelling · chemical-space shift</sub></td>
-<td width="25%" valign="top"><b>◎ Reliable Scientific AI</b><br/><sub>Conformal prediction · scientific-rule gating · calibration · uncertainty · reproducible ML</sub></td>
+<td width="50%" valign="top">
+<b>λ Spectral & Structural Graph Theory</b><br/>
+<sub>Graph matrices · graph energy · VELE · spectral bounds · extremal problems · inverse reconstruction</sub>
+</td>
+<td width="50%" valign="top">
+<b>⌘ Network Science & Resilience</b><br/>
+<sub>Failure-sensitive screening · power-grid networks · structural–physical validation · interpretable ranking</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<b>⬡ Molecular Graphs & QSPR/QSAR</b><br/>
+<sub>Classical graph descriptors · representation degeneracy · EGFR modelling · chemical-space shift</sub>
+</td>
+<td width="50%" valign="top">
+<b>◎ Reliable Scientific AI</b><br/>
+<sub>Conformal prediction · scientific-rule gating · calibration · uncertainty · reproducible ML</sub>
+</td>
 </tr>
 </table>
 
-`Spectral graph invariants` · `VELE` · `Graph energy` · `Network resilience` · `Molecular graph descriptors` · `QSPR / QSAR` · `Conformal prediction` · `Distribution shift` · `Knowledge-guided AI` · `Reproducibility`
+<p align="center">
+<code>Spectral graph invariants</code> · <code>VELE</code> · <code>Network resilience</code> · <code>QSPR/QSAR</code> · <code>Conformal prediction</code> · <code>Distribution shift</code> · <code>Knowledge-guided AI</code>
+</p>
 
 ---
 
 ## 🔬 Featured open research
 
-### ⚡ [VELE Power-Grid Vulnerability Screening](https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility)
-
+### ⚡ VELE Power-Grid Vulnerability Screening
 **Graph theory × network resilience × power systems**  
 Eccentricity-sensitive structural screening evaluated against island-aware DC-flow behaviour across **6 IEEE/MATPOWER systems**, **784 physical branch outages**, **558 single-bus outages**, and **1,692 progressive electrical states**.
 
-`MATPOWER 8.1 cross-check` · `DC-flow validation` · `failure-mode transparency` · `frozen submission release`
+[![Repository](https://img.shields.io/badge/Open_Repository-VELE_Power--Grid-2563EB?style=for-the-badge&logo=github)](https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility)
+`MATPOWER 8.1 cross-check` · `DC-flow validation` · `failure-mode transparency` · `frozen release`
 
-### 🧬 [EGFR Graph QSAR — Representation Limits](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility)
+---
 
+### 🧬 EGFR Graph QSAR — Representation Limits
 **Molecular graphs × QSAR × representation analysis**  
 A matched study of **10,056 EGFR compounds** comparing **19 classical graph invariants**, RDKit2D and ECFP4, with exact descriptor-vector collision analysis showing where extreme topological compression loses chemical identity.
 
+[![Repository](https://img.shields.io/badge/Open_Repository-EGFR_Graph_QSAR-7C3AED?style=for-the-badge&logo=github)](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility)
 `Graph19` · `scaffold validation` · `representation degeneracy` · `chemical-space diagnostics`
 
-### 🧠 [Applicability-Gated Molecular AI](https://github.com/SunilgarGusai/applicability-gated-molecular-ai)
+---
 
+### 🧠 Applicability-Gated Molecular AI
 **Knowledge-guided AI × molecular prediction × applicability**  
 A rule-residual framework that keeps an explicit scientific rule visible as a fallible expert and learns when that rule should be trusted, corrected or audited under chemical-space shift.
 
+[![Repository](https://img.shields.io/badge/Open_Repository-Applicability--Gated_AI-F59E0B?style=for-the-badge&logo=github)](https://github.com/SunilgarGusai/applicability-gated-molecular-ai)
 `AGRR` · `negative controls` · `rule-failure diagnosis` · `external B3DB transfer`
 
-### 📐 [Calibration Transfer of Conformal Prediction](https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility)
+---
 
+### 📐 Calibration Transfer of Conformal Prediction
 **Uncertainty × distribution shift × scientific computing**  
 Grouped conformal-prediction experiments across SCM composition regimes using **1,030 observations** and **427 physical mix designs**, with fixed seeds, sensitivity analyses and machine-readable numerical verification.
 
+[![Repository](https://img.shields.io/badge/Open_Repository-Conformal_Prediction-0891B2?style=for-the-badge&logo=github)](https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility)
 `conformal prediction` · `grouped validation` · `support diagnostics` · `reproducible uncertainty`
 
 ---
 
 ## 🧪 Open-research standard
-
-I increasingly treat a research repository as more than a code attachment. Where the project permits, the public record includes:
 
 | Reproducibility | Validation | Traceability | Scientific restraint |
 |---|---|---|---|
@@ -78,7 +109,9 @@ I increasingly treat a research repository as more than a code attachment. Where
 
 ---
 
-## 📚 Selected scholarly work
+<details open>
+<summary><b>📚 Selected scholarly work</b></summary>
+<br/>
 
 ### On Vertex Eccentricity Labeled Energy of a Graph
 **Sunilgar Gusai, Vinodray Kaneria, Manoharsinh Jadeja**  
@@ -87,9 +120,11 @@ I increasingly treat a research repository as more than a code attachment. Where
 
 My continuing VELE work studies structural properties, spectral behaviour, graph operations and network-oriented applications of eccentricity-driven graph-energy measures.
 
----
+</details>
 
-## 🎓 Teaching & academic work
+<details>
+<summary><b>🎓 Teaching & academic work</b></summary>
+<br/>
 
 I teach mathematical foundations for computing and data-oriented programmes, including:
 
@@ -97,9 +132,11 @@ I teach mathematical foundations for computing and data-oriented programmes, inc
 
 I also contribute to academic coordination, curriculum work, examinations, student mentoring, research collaboration and institutional service.
 
----
+</details>
 
-## 🤝 Collaboration
+<details>
+<summary><b>🤝 Collaboration directions</b></summary>
+<br/>
 
 I am open to serious academic collaboration in:
 
@@ -110,9 +147,14 @@ I am open to serious academic collaboration in:
 - reliable / uncertainty-aware scientific machine learning;
 - reproducible computational research.
 
+</details>
+
+---
+
 <p align="center">
-  <a href="mailto:dr.sunilgargusai@gmail.com"><img src="https://img.shields.io/badge/Email-dr.sunilgargusai%40gmail.com-334155?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://marwadiuniversity.irins.org/profile/521348"><img src="https://img.shields.io/badge/Institutional_Profile-Marwadi_University-6D5DFC?style=flat-square" alt="Institutional Profile" /></a>
+  <a href="mailto:dr.sunilgargusai@gmail.com"><img src="https://img.shields.io/badge/Email-Research_Collaboration-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://marwadiuniversity.irins.org/profile/521348"><img src="https://img.shields.io/badge/Institutional_Profile-Marwadi_University-6D5DFC?style=for-the-badge" alt="Institutional Profile" /></a>
+  <a href="https://github.com/SunilgarGusai?tab=repositories"><img src="https://img.shields.io/badge/Open_Research-Repositories-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Open Research Repositories" /></a>
 </p>
 
-<p align="center"><sub>Rajkot, Gujarat, India · Building at the intersection of mathematics, transparent computation and scientific AI.</sub></p>
+<p align="center"><sub>Rajkot, Gujarat, India · Mathematics → Networks → Molecular Systems → Reliable Scientific AI</sub></p>
