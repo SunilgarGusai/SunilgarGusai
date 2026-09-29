@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - ".github/scripts/update_research_pulse.py"
+      - ".github/scripts/update_research_status.py"
       - ".github/workflows/update-profile-pulse.yml"
 
 permissions:
@@ -29,7 +29,7 @@ jobs:
       - name: Refresh Research Now block
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python .github/scripts/update_research_pulse.py
+        run: python .github/scripts/update_research_status.py
 
       - name: Commit only when research status changed
         run: |
