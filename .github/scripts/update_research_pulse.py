@@ -30,10 +30,9 @@ def short_name(name: str) -> str:
     return name.replace("-Reproducibility", "").replace("-", " ")
 
 
-def build_svg(count: int, latest_name: str, latest_push: str, synced: str) -> str:
+def build_svg(count: int, latest_name: str, latest_push: str) -> str:
     latest_name = html.escape(short_name(latest_name))
     latest_push = html.escape(latest_push)
-    synced = html.escape(synced)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="218" viewBox="0 0 1200 218" role="img" aria-labelledby="title desc">
 <title id="title">Live research pulse</title>
 <desc id="desc">Auto-updating research pulse for Dr. Sunilgar L. Gusai.</desc>
@@ -49,7 +48,7 @@ def build_svg(count: int, latest_name: str, latest_push: str, synced: str) -> st
 <g transform="translate(42 72)"><rect width="250" height="105" rx="18" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".10"/><text x="22" y="30" fill="#91acd0" font-size="12" font-family="Arial,Helvetica,sans-serif">OPEN RESEARCH REPOS</text><text x="22" y="75" fill="#ffffff" font-size="37" font-weight="700" font-family="Arial,Helvetica,sans-serif">{count}</text><text x="72" y="74" fill="#9fb6d5" font-size="13" font-family="Arial,Helvetica,sans-serif">public projects</text></g>
 <g transform="translate(310 72)"><rect width="402" height="105" rx="18" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".10"/><text x="22" y="30" fill="#91acd0" font-size="12" font-family="Arial,Helvetica,sans-serif">MOST RECENTLY ACTIVE</text><text x="22" y="63" fill="#ffffff" font-size="18" font-weight="700" font-family="Arial,Helvetica,sans-serif">{latest_name}</text><text x="22" y="86" fill="#9fb6d5" font-size="12" font-family="Arial,Helvetica,sans-serif">latest push · {latest_push}</text></g>
 <g transform="translate(730 72)"><rect width="190" height="105" rx="18" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".10"/><text x="22" y="30" fill="#91acd0" font-size="12" font-family="Arial,Helvetica,sans-serif">RESEARCH TRACKS</text><text x="22" y="75" fill="#ffffff" font-size="37" font-weight="700" font-family="Arial,Helvetica,sans-serif">4</text></g>
-<g transform="translate(938 72)"><rect width="220" height="105" rx="18" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".10"/><text x="22" y="30" fill="#91acd0" font-size="12" font-family="Arial,Helvetica,sans-serif">PROFILE STATUS</text><text x="22" y="68" fill="#45eab1" font-size="21" font-weight="700" font-family="Arial,Helvetica,sans-serif">ACTIVE</text><text x="22" y="88" fill="#9fb6d5" font-size="10.5" font-family="Arial,Helvetica,sans-serif">synced {synced}</text></g>
+<g transform="translate(938 72)"><rect width="220" height="105" rx="18" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".10"/><text x="22" y="30" fill="#91acd0" font-size="12" font-family="Arial,Helvetica,sans-serif">PROFILE STATUS</text><text x="22" y="68" fill="#45eab1" font-size="21" font-weight="700" font-family="Arial,Helvetica,sans-serif">ACTIVE</text><text x="22" y="88" fill="#9fb6d5" font-size="10.5" font-family="Arial,Helvetica,sans-serif">GitHub-synced signal</text></g>
 <rect x="42" y="198" width="1116" height="2" rx="1" fill="#ffffff" opacity=".08"/>
 <rect x="42" y="198" width="260" height="2" rx="1" fill="url(#a)"><animate attributeName="x" values="42;898;42" dur="7s" repeatCount="indefinite"/></rect>
 </svg>'''
@@ -64,7 +63,6 @@ def main():
         and repo.get("name") not in EXCLUDED
     ]
     research.sort(key=lambda repo: repo.get("pushed_at") or "", reverse=True)
-    now = dt.datetime.now(dt.timezone.utc)
     if research:
         latest = research[0]
         pushed = dt.datetime.fromisoformat(latest["pushed_at"].replace("Z", "+00:00"))
@@ -73,7 +71,7 @@ def main():
     else:
         latest_push = "—"
         latest_name = "No public research repository"
-    svg = build_svg(len(research), latest_name, latest_push, now.strftime("%d %b %Y UTC"))
+    svg = build_svg(len(research), latest_name, latest_push)
     Path("assets/research-pulse.svg").write_text(svg, encoding="utf-8")
 
 
