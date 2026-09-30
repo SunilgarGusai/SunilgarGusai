@@ -20,11 +20,11 @@
 
 > **4 public research projects** · **4 connected research directions** · **Open reproducibility**
 
-### ⚡ [VELE Power-Grid Vulnerability Screening](https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility)
-**Most recently active public research project** · latest push **28 Sep 2026**
+### 🧬 [EGFR Graph QSAR — Representation Limits](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility)
+**Most recently active public research project** · latest push **29 Sep 2026**
 
 **Recent research trail**  
-`28 Sep` **VELE Power-Grid** → `27 Sep` **EGFR Graph QSAR** → `27 Sep` **Applicability-Gated Molecular AI**
+`29 Sep` **EGFR Graph QSAR** → `28 Sep` **VELE Power-Grid** → `27 Sep` **Applicability-Gated Molecular AI**
 <!-- OBSERVATORY:END -->
 
 ---
