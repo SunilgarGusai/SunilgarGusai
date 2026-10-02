@@ -18,13 +18,13 @@
 <!-- OBSERVATORY:START -->
 ## ◉ Current research signal
 
-> **4 public research projects** · **4 connected research directions** · **Open reproducibility**
+> **5 public research projects** · **4 connected research directions** · **Open reproducibility**
 
-### 🧬 [EGFR Graph QSAR — Representation Limits](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility)
-**Most recently active public research project** · latest push **29 Sep 2026**
+### 🔬 [mutation geodesic shielding protein stability](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability)
+**Most recently active public research project** · latest push **02 Oct 2026**
 
 **Recent research trail**  
-`29 Sep` **EGFR Graph QSAR** → `28 Sep` **VELE Power-Grid** → `27 Sep` **Applicability-Gated Molecular AI**
+`02 Oct` **mutation geodesic shielding protein stability** → `29 Sep` **EGFR Graph QSAR** → `28 Sep` **VELE Power-Grid**
 <!-- OBSERVATORY:END -->
 
 ---
