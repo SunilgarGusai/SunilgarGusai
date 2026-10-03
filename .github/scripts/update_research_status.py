@@ -48,12 +48,11 @@ def date_for(repo: dict) -> dt.datetime:
 
 
 def build_block(research: list[dict], catalog: dict[str, dict]) -> str:
-    count = len(research)
     if not research:
         return f"""{START}
 ## ◉ Current research signal
 
-> **0 public research programmes** · **4 connected research directions** · **Open reproducibility**
+> **Open reproducibility** · research artefacts are curated rather than counted
 
 No public research repository is currently available.
 {END}"""
@@ -62,25 +61,14 @@ No public research repository is currently available.
     icon, title, _ = names(latest["name"], catalog)
     latest_date = date_for(latest).strftime("%d %b %Y")
 
-    trail_parts = []
-    for repo in research[:4]:
-        _, _, short = names(repo["name"], catalog)
-        date_text = date_for(repo).strftime("%d %b")
-        trail_parts.append(f"`{date_text}` **{short}**")
-    trail = " → ".join(trail_parts)
-
     return f"""{START}
 ## ◉ Current research signal
 
-> **{count} public research programmes** · **4 connected research directions** · **Open reproducibility**
+> **Open reproducibility** · active research across graph theory, networked systems, molecular and biomolecular graphs, and reliable scientific AI
 
 ### {icon} [{title}]({latest['html_url']})
 **Most recently active public research project** · latest push **{latest_date}**
-
-**Recent research trail**  
-{trail}
 {END}"""
-
 
 def main():
     repos = get_repos()
