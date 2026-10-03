@@ -110,20 +110,20 @@
 ### Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs
 **Sunilgar Gusai** · *International Journal of Scientific Development and Research*, **11**(9), b394–b402, September 2026  
 [![DOI](https://img.shields.io/badge/DOI-10.56975%2Fijsdr.v11i9.311920-3B82F6?style=flat-square)](https://doi.org/10.56975/ijsdr.v11i9.311920)  
-`Wiener index` · `Harary index` · `edge deletion` · `network vulnerability`
+`wiener index` · `harary index` · `edge failure`
 
 ### Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security
 *Computer and Decision Making (COMDEM)* · **Accepted for publication, 30 Sep 2026** · Manuscript **CDM_121**  
-`Explainable ML` · `cybersecurity` · `adaptive threat detection`
+`explainable ml` · `cybersecurity` · `adaptive detection`
 
 ### Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices
 **Sunilgar L. Gusai** · *International Journal of Science and Research*, **15**, 681–686, 2026  
-`Spectral bounds` · `graph matrices`
+`spectral bounds` · `graph matrices`
 
 ### On Vertex Eccentricity Labeled Energy of a Graph
 **Sunilgar Gusai, Vinodray Kaneria, Manoharsinh Jadeja** · *International Journal of Basic and Applied Sciences*, **14**(4), 339–350, 2025  
 [![DOI](https://img.shields.io/badge/DOI-10.14419%2Fqtfv0860-3B82F6?style=flat-square)](https://doi.org/10.14419/qtfv0860)  
-`VELE` · `spectral graph theory` · `graph energy`
+`vele` · `spectral graph theory` · `graph energy`
 <!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:END -->
 ---
 
