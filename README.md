@@ -22,10 +22,13 @@
 <!-- OBSERVATORY:START -->
 ## ◉ Current research signal
 
-> **Open reproducibility** · active research across graph theory, networked systems, molecular and biomolecular graphs, and reliable scientific AI
+> **8 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
 ### 🌍 [Global MSW Reliability Under Geographic Shift](https://github.com/SunilgarGusai/global-msw-reliability-under-shift)
 **Most recently active public research project** · latest push **03 Oct 2026**
+
+**Recent research trail**  
+`03 Oct` **Global MSW Reliability** → `03 Oct` **Claim–Evidence Consistency** → `03 Oct` **Mutation Geodesic Shielding** → `03 Oct` **Assam Road Inspection**
 <!-- OBSERVATORY:END -->
 
 ---
@@ -45,7 +48,32 @@
 
 ---
 
-## Selected open research
+## Current frontier
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability" title="Open Mutation Geodesic Shielding repository"><img src="assets/project-mgsc.svg" alt="Mutation Geodesic Shielding for Protein Stability" width="100%" /></a>
+<br/><b>Mutation-conditioned graph geometry for residue-network susceptibility</b>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/SunilgarGusai/Assam-Road-Inspection-Benchmark" title="Open Assam Road Inspection Benchmark"><img src="assets/project-assam.svg" alt="Assam Road Inspection Benchmark" width="100%" /></a>
+<br/><b>Leakage-controlled flood-road inspection under transfer and budget constraints</b>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility" title="Open Claim-Evidence Consistency repository"><img src="assets/project-claim-evidence.svg" alt="Claim–Evidence Consistency in Labeled Graphs" width="100%" /></a>
+<br/><b>Complexity, verification certificates and correction in labeled evidence graphs</b>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/SunilgarGusai/global-msw-reliability-under-shift" title="Open Global MSW Reliability repository"><img src="assets/project-msw.svg" alt="Global MSW Reliability Under Geographic Shift" width="100%" /></a>
+<br/><b>Geographic transfer, uncertainty and decision reliability in global waste-service prediction</b>
+</td>
+</tr>
+</table>
+
+## Established open research
 
 <table>
 <tr>
@@ -60,17 +88,17 @@
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability"><img src="assets/project-mgsc.svg" alt="Mutation Geodesic Shielding for Protein Stability" width="100%" /></a>
-<br/><b>Mutation-conditioned graph geometry for residue-network susceptibility</b>
-</td>
-<td width="50%" valign="top" align="center">
 <a href="https://github.com/SunilgarGusai/applicability-gated-molecular-ai"><img src="assets/project-agrr.svg" alt="Applicability-Gated Molecular AI" width="100%" /></a>
 <br/><b>Learning when a scientific rule should be trusted, corrected or audited</b>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility"><img src="assets/project-conformal.svg" alt="Calibration Transfer of Conformal Prediction" width="100%" /></a>
+<br/><b>Uncertainty calibration under composition and distribution shift</b>
 </td>
 </tr>
 </table>
 
-<p align="center"><sub>Representative public research artefacts. Additional reproducibility projects are available through the portfolio and repositories.</sub></p>
+<p align="center"><sub>Every research cover opens the corresponding public reproducibility repository.</sub></p>
 
 ---
 
@@ -118,7 +146,7 @@
 
 `Linear Algebra` · `Calculus` · `Discrete Mathematics` · `Operations Research` · `Probability` · `Statistics` · `Applied Mathematics` · `Optimization`
 
-I serve as Program Head for Data Science Programs alongside teaching, curriculum work, timetable coordination, examinations, student mentoring, research collaboration and institutional service.
+I serve as Program Head for Data Science Programs and Area Chair for Advanced Computing, alongside teaching, curriculum work, timetable coordination, examinations, student mentoring, research collaboration and institutional service.
 </details>
 
 <details>
