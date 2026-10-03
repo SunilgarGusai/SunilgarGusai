@@ -123,7 +123,7 @@
 `VELE` · `spectral graph theory` · `graph energy`
 
 <details>
-<summary><b>🧭 Selected current manuscript pipeline · snapshot 03 Oct 2026</b></summary>
+<summary><b>🧭 Selected current manuscript pipeline</b></summary>
 <br/>
 
 - **Under review:** Explainable Graph Machine Learning for Leakage-Controlled Pre-Failure Edge Screening — *Applied Soft Computing*.
@@ -136,7 +136,6 @@
 - **Submitted:** Calibration Transfer of Conformal Prediction for Concrete Strength Across SCM Composition Regimes — *Journal of Computers, Mechanical and Management*.
 - **Submitted:** Sharp Defect Bounds for the Sombor Index under Degree-Preserving Edge Switches — *Note di Matematica*.
 
-<sub>Status is intentionally conservative. Editorial decisions supersede the research tracker when the two differ.</sub>
 </details>
 
 ---
