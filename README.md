@@ -18,13 +18,13 @@
 <!-- OBSERVATORY:START -->
 ## ◉ Current research signal
 
-> **5 public research projects** · **4 connected research directions** · **Open reproducibility**
+> **6 public research projects** · **4 connected research directions** · **Open reproducibility**
 
 ### 🔬 [mutation geodesic shielding protein stability](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability)
-**Most recently active public research project** · latest push **02 Oct 2026**
+**Most recently active public research project** · latest push **03 Oct 2026**
 
 **Recent research trail**  
-`02 Oct` **mutation geodesic shielding protein stability** → `29 Sep` **EGFR Graph QSAR** → `28 Sep` **VELE Power-Grid**
+`03 Oct` **mutation geodesic shielding protein stability** → `03 Oct` **Assam Road Inspection Benchmark** → `29 Sep` **EGFR Graph QSAR**
 <!-- OBSERVATORY:END -->
 
 ---
