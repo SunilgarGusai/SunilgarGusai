@@ -11,7 +11,7 @@ USER = "SunilgarGusai"
 EXCLUDED = {"SunilgarGusai", "sunilgar-portfolio"}
 API = f"https://api.github.com/users/{USER}/repos?per_page=100&sort=pushed"
 README = Path("README.md")
-CATALOG = Path("research-catalog.json")
+MASTER_URL = "https://raw.githubusercontent.com/SunilgarGusai/sunilgar-portfolio/main/data/academic-profile.json"
 START = "<!-- OBSERVATORY:START -->"
 END = "<!-- OBSERVATORY:END -->"
 
@@ -31,14 +31,19 @@ def get_repos():
 
 
 def get_catalog() -> dict[str, dict]:
-    payload = json.loads(CATALOG.read_text(encoding="utf-8"))
-    return {item["repository"]: item for item in payload.get("projects", [])}
+    request = urllib.request.Request(
+        MASTER_URL,
+        headers={"User-Agent": f"{USER}-research-observatory-master"},
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        payload = json.load(response)
+    return {item["repository"]: item for item in payload.get("research_programmes", [])}
 
 
 def names(repo_name: str, catalog: dict[str, dict]) -> tuple[str, str, str]:
     item = catalog.get(repo_name)
     if item:
-        return item.get("icon", "🔬"), item["display_title"], item.get("short_title", item["display_title"])
+        return item.get("icon", "🔬"), item["title"], item.get("short_title", item["title"])
     clean = repo_name.replace("-Reproducibility", "").replace("-", " ")
     return "🔬", clean, clean
 
