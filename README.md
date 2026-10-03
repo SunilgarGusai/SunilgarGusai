@@ -122,21 +122,6 @@
 [![DOI](https://img.shields.io/badge/DOI-10.14419%2Fqtfv0860-3B82F6?style=flat-square)](https://doi.org/10.14419/qtfv0860)  
 `VELE` · `spectral graph theory` · `graph energy`
 
-<details>
-<summary><b>🧭 Selected current manuscript pipeline</b></summary>
-<br/>
-
-- **Under review:** Explainable Graph Machine Learning for Leakage-Controlled Pre-Failure Edge Screening — *Applied Soft Computing*.
-- **Under review:** Budgeted Eccentricity Reduction in Graphs — *Discrete Applied Mathematics*.
-- **Under review:** Learning When to Trust Fallible Scientific Rules — *Artificial Intelligence and Applications*.
-- **Under review:** Vertex Eccentricity Labeled Energy of Corona Graphs — *Communications in Mathematics and Applications*.
-- **Submitted:** Chronology-Aware Reliable Semiconductor Quality Prediction with Calibrated Selective Machine Learning — *ITEGAM-JETIA*.
-- **Submitted:** Certified Top-k Closeness Rankings under Interval Edge-Weight Uncertainty — *IAENG International Journal of Applied Mathematics*.
-- **Submitted:** Fault-Tolerant Test-Bank Design under Item Withdrawal — *IAENG International Journal of Applied Mathematics*.
-- **Submitted:** Calibration Transfer of Conformal Prediction for Concrete Strength Across SCM Composition Regimes — *Journal of Computers, Mechanical and Management*.
-- **Submitted:** Sharp Defect Bounds for the Sombor Index under Degree-Preserving Edge Switches — *Note di Matematica*.
-
-</details>
 
 ---
 
