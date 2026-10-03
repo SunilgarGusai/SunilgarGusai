@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-OPEN-2563EB?style=for-the-badge" alt="Portfolio" /></a>
+  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-OPEN-2563EB?style=for-the-badge" alt="Portfolio" /></a>\n  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf"><img src="https://img.shields.io/badge/CV-LATEST-334155?style=for-the-badge&logo=readme&logoColor=white" alt="Latest CV" /></a>
   <a href="https://orcid.org/0009-0004-0739-4812"><img src="https://img.shields.io/badge/ORCID-0009--0004--0739--4812-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
   <a href="https://www.scopus.com/authid/detail.uri?authorId=60059223900"><img src="https://img.shields.io/badge/SCOPUS-AUTHOR-E9711C?style=for-the-badge" alt="Scopus" /></a>
   <a href="https://linkedin.com/in/dr-sunilgar-gusai"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 <p align="center">
-  <b>Assistant Professor · Ph.D. in Mathematics · Graph Theorist · Computational Researcher</b>
+  <b>Assistant Professor of Mathematics · Program Head, Data Science Programs · Ph.D. · Graph Theorist · Computational Researcher</b>
 </p>
 
 <p align="center">
@@ -146,7 +146,7 @@
 
 `Linear Algebra` · `Calculus` · `Discrete Mathematics` · `Operations Research` · `Probability` · `Statistics` · `Applied Mathematics` · `Optimization`
 
-I also contribute to academic coordination, curriculum work, examinations, student mentoring, research collaboration and institutional service.
+I serve as Program Head for Data Science Programs and Area Chair for Advanced Computing, alongside teaching, curriculum work, timetable coordination, examinations, student mentoring, research collaboration and institutional service.
 </details>
 
 <details>
