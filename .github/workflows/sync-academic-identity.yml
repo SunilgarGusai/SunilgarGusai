@@ -1,0 +1,59 @@
+name: Sync academic identity from portfolio master
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/academic-sync-trigger.txt"
+      - ".github/scripts/sync_profile_from_master.py"
+      - ".github/workflows/sync-academic-identity.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "README.md"
+      - ".github/academic-sync-trigger.txt"
+      - ".github/scripts/sync_profile_from_master.py"
+      - ".github/workflows/sync-academic-identity.yml"
+  schedule:
+    - cron: "47 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-academic-identity-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull canonical academic identity and update controlled blocks
+        run: python .github/scripts/sync_profile_from_master.py
+
+      - name: Preview synchronization on pull requests
+        if: github.event_name == 'pull_request'
+        run: git diff -- README.md || true
+
+      - name: Commit synchronized profile on main
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "GitHub profile is already synchronized."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: sync academic identity from canonical master"
+          git push
