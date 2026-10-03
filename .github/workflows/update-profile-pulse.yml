@@ -9,7 +9,6 @@ on:
       - main
     paths:
       - ".github/scripts/update_research_status.py"
-      - "research-catalog.json"
       - ".github/workflows/update-profile-pulse.yml"
 
 permissions:
