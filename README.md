@@ -11,9 +11,11 @@
   <a href="https://linkedin.com/in/dr-sunilgar-gusai"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
+<!-- ACADEMIC_SYNC:PROFILE_ROLE:START -->
 <p align="center">
   <b>Assistant Professor of Mathematics · Program Head, Data Science Programs · Ph.D. · Graph Theorist · Computational Researcher</b>
 </p>
+<!-- ACADEMIC_SYNC:PROFILE_ROLE:END -->
 
 <p align="center">
   <b>Mathematical structure → networked systems → molecular & biomolecular graphs → reliable scientific evidence</b>
@@ -102,6 +104,7 @@
 
 ---
 
+<!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:START -->
 ## Published & accepted scholarship
 
 ### Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs
@@ -121,8 +124,7 @@
 **Sunilgar Gusai, Vinodray Kaneria, Manoharsinh Jadeja** · *International Journal of Basic and Applied Sciences*, **14**(4), 339–350, 2025  
 [![DOI](https://img.shields.io/badge/DOI-10.14419%2Fqtfv0860-3B82F6?style=flat-square)](https://doi.org/10.14419/qtfv0860)  
 `VELE` · `spectral graph theory` · `graph energy`
-
-
+<!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:END -->
 ---
 
 ## Research standard
@@ -146,7 +148,9 @@
 
 `Linear Algebra` · `Calculus` · `Discrete Mathematics` · `Operations Research` · `Probability` · `Statistics` · `Applied Mathematics` · `Optimization`
 
+<!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:START -->
 I serve as Program Head for Data Science Programs and Area Chair for Advanced Computing, alongside teaching, curriculum work, timetable coordination, examinations, student mentoring, research collaboration and institutional service.
+<!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:END -->
 </details>
 
 <details>
