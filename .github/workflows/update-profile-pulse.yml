@@ -1,4 +1,4 @@
-name: Refresh Research Observatory signal
+name: Refresh research ecosystem signal
 
 on:
   schedule:
@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - ".github/scripts/update_research_status.py"
+      - "research-catalog.json"
       - ".github/workflows/update-profile-pulse.yml"
 
 permissions:
@@ -26,7 +27,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh Research Observatory block
+      - name: Refresh research ecosystem block
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/scripts/update_research_status.py

@@ -1,0 +1,69 @@
+{
+  "version": "2026-10-03",
+  "projects": [
+    {
+      "repository": "mutation-geodesic-shielding-protein-stability",
+      "display_title": "Mutation Geodesic Shielding for Protein Stability",
+      "short_title": "Mutation Geodesic Shielding",
+      "icon": "🧬",
+      "pillar": "Molecular & Biomolecular Graphs",
+      "status": "Public · Manuscript submission"
+    },
+    {
+      "repository": "Assam-Road-Inspection-Benchmark",
+      "display_title": "Assam Road Inspection Benchmark",
+      "short_title": "Assam Road Inspection",
+      "icon": "🌧️",
+      "pillar": "Networked Systems & Resilience",
+      "status": "Public · Frozen benchmark"
+    },
+    {
+      "repository": "Claim-Evidence-Consistency-Reproducibility",
+      "display_title": "Claim–Evidence Consistency in Labeled Graphs",
+      "short_title": "Claim–Evidence Consistency",
+      "icon": "◈",
+      "pillar": "Graph Theory & Formal Methods",
+      "status": "Public · Submission release"
+    },
+    {
+      "repository": "global-msw-reliability-under-shift",
+      "display_title": "Global MSW Reliability Under Geographic Shift",
+      "short_title": "Global MSW Reliability",
+      "icon": "🌍",
+      "pillar": "Reliable Scientific AI & Evidence",
+      "status": "Public · Submission release"
+    },
+    {
+      "repository": "VELE-PowerGrid-Reproducibility",
+      "display_title": "VELE Power-Grid Vulnerability Screening",
+      "short_title": "VELE Power-Grid",
+      "icon": "⚡",
+      "pillar": "Networked Systems & Resilience",
+      "status": "Public · Submission release"
+    },
+    {
+      "repository": "EGFR-Graph-QSAR-Reproducibility",
+      "display_title": "EGFR Graph QSAR — Representation Limits",
+      "short_title": "EGFR Graph QSAR",
+      "icon": "⬡",
+      "pillar": "Molecular & Biomolecular Graphs",
+      "status": "Public · Reproducibility"
+    },
+    {
+      "repository": "applicability-gated-molecular-ai",
+      "display_title": "Applicability-Gated Molecular AI",
+      "short_title": "Applicability-Gated Molecular AI",
+      "icon": "◎",
+      "pillar": "Reliable Scientific AI & Evidence",
+      "status": "Public · Frozen outputs"
+    },
+    {
+      "repository": "PAPER-JCMM-reproducibility",
+      "display_title": "Calibration Transfer of Conformal Prediction",
+      "short_title": "Conformal Prediction",
+      "icon": "∿",
+      "pillar": "Reliable Scientific AI & Evidence",
+      "status": "Public · Reproducibility"
+    }
+  ]
+}

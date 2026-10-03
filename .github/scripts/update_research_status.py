@@ -11,15 +11,9 @@ USER = "SunilgarGusai"
 EXCLUDED = {"SunilgarGusai", "sunilgar-portfolio"}
 API = f"https://api.github.com/users/{USER}/repos?per_page=100&sort=pushed"
 README = Path("README.md")
+CATALOG = Path("research-catalog.json")
 START = "<!-- OBSERVATORY:START -->"
 END = "<!-- OBSERVATORY:END -->"
-
-DISPLAY = {
-    "VELE-PowerGrid-Reproducibility": ("⚡", "VELE Power-Grid Vulnerability Screening", "VELE Power-Grid"),
-    "EGFR-Graph-QSAR-Reproducibility": ("🧬", "EGFR Graph QSAR — Representation Limits", "EGFR Graph QSAR"),
-    "applicability-gated-molecular-ai": ("🧠", "Applicability-Gated Molecular AI", "Applicability-Gated Molecular AI"),
-    "PAPER-JCMM-reproducibility": ("📐", "Calibration Transfer of Conformal Prediction", "Conformal Prediction"),
-}
 
 
 def get_repos():
@@ -36,9 +30,15 @@ def get_repos():
         return json.load(response)
 
 
-def names(repo_name: str) -> tuple[str, str, str]:
-    if repo_name in DISPLAY:
-        return DISPLAY[repo_name]
+def get_catalog() -> dict[str, dict]:
+    payload = json.loads(CATALOG.read_text(encoding="utf-8"))
+    return {item["repository"]: item for item in payload.get("projects", [])}
+
+
+def names(repo_name: str, catalog: dict[str, dict]) -> tuple[str, str, str]:
+    item = catalog.get(repo_name)
+    if item:
+        return item.get("icon", "🔬"), item["display_title"], item.get("short_title", item["display_title"])
     clean = repo_name.replace("-Reproducibility", "").replace("-", " ")
     return "🔬", clean, clean
 
@@ -47,24 +47,24 @@ def date_for(repo: dict) -> dt.datetime:
     return dt.datetime.fromisoformat(repo["pushed_at"].replace("Z", "+00:00"))
 
 
-def build_block(research: list[dict]) -> str:
+def build_block(research: list[dict], catalog: dict[str, dict]) -> str:
     count = len(research)
     if not research:
         return f"""{START}
 ## ◉ Current research signal
 
-> **0 public research projects** · **4 connected research directions** · **Open reproducibility**
+> **0 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
 No public research repository is currently available.
 {END}"""
 
     latest = research[0]
-    icon, title, _ = names(latest["name"])
+    icon, title, _ = names(latest["name"], catalog)
     latest_date = date_for(latest).strftime("%d %b %Y")
 
     trail_parts = []
-    for repo in research[:3]:
-        _, _, short = names(repo["name"])
+    for repo in research[:4]:
+        _, _, short = names(repo["name"], catalog)
         date_text = date_for(repo).strftime("%d %b")
         trail_parts.append(f"`{date_text}` **{short}**")
     trail = " → ".join(trail_parts)
@@ -72,7 +72,7 @@ No public research repository is currently available.
     return f"""{START}
 ## ◉ Current research signal
 
-> **{count} public research projects** · **4 connected research directions** · **Open reproducibility**
+> **{count} public research programmes** · **4 connected research directions** · **Open reproducibility**
 
 ### {icon} [{title}]({latest['html_url']})
 **Most recently active public research project** · latest push **{latest_date}**
@@ -84,6 +84,7 @@ No public research repository is currently available.
 
 def main():
     repos = get_repos()
+    catalog = get_catalog()
     research = [
         repo
         for repo in repos
@@ -98,7 +99,7 @@ def main():
     if not pattern.search(text):
         raise RuntimeError("Research Observatory markers were not found in README.md")
 
-    updated = pattern.sub(build_block(research), text, count=1)
+    updated = pattern.sub(build_block(research, catalog), text, count=1)
     if updated != text:
         README.write_text(updated, encoding="utf-8")
 

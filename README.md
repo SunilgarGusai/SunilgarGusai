@@ -15,16 +15,20 @@
   <b>Assistant Professor · Ph.D. in Mathematics · Graph Theorist · Computational Researcher</b>
 </p>
 
+<p align="center">
+  <b>Mathematical structure → networked systems → molecular & biomolecular graphs → reliable scientific evidence</b>
+</p>
+
 <!-- OBSERVATORY:START -->
 ## ◉ Current research signal
 
-> **6 public research projects** · **4 connected research directions** · **Open reproducibility**
+> **8 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
-### 🔬 [mutation geodesic shielding protein stability](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability)
+### 🧬 [Mutation Geodesic Shielding for Protein Stability](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability)
 **Most recently active public research project** · latest push **03 Oct 2026**
 
 **Recent research trail**  
-`03 Oct` **mutation geodesic shielding protein stability** → `03 Oct` **Assam Road Inspection Benchmark** → `29 Sep` **EGFR Graph QSAR**
+`03 Oct` **Mutation Geodesic Shielding** → `03 Oct` **Assam Road Inspection** → `03 Oct` **Claim–Evidence Consistency** → `03 Oct` **Global MSW Reliability**
 <!-- OBSERVATORY:END -->
 
 ---
@@ -33,43 +37,107 @@
 
 <table>
 <tr>
-<td align="center" width="25%"><h3>λ Graph Theory</h3><b>Spectral · structural · extremal</b></td>
-<td align="center" width="25%"><h3>⌘ Networks</h3><b>Resilience · failure impact · power grids</b></td>
-<td align="center" width="25%"><h3>⬡ Molecular Graphs</h3><b>QSPR/QSAR · descriptors · chemical space</b></td>
-<td align="center" width="25%"><h3>◎ Scientific AI</h3><b>Uncertainty · calibration · rule-aware ML</b></td>
+<td align="center" width="25%"><h3>λ Graph Theory & Formal Methods</h3><b>Spectral · structural · extremal · algorithms · certificates</b></td>
+<td align="center" width="25%"><h3>⌘ Networked Systems & Resilience</h3><b>Power grids · road networks · failure impact · climate hazards</b></td>
+<td align="center" width="25%"><h3>⬡ Molecular & Biomolecular Graphs</h3><b>QSAR · descriptors · residue networks · mutation geometry</b></td>
+<td align="center" width="25%"><h3>◎ Reliable Scientific AI & Evidence</h3><b>Shift · uncertainty · calibration · evidence consistency</b></td>
 </tr>
 </table>
 
-<p align="center"><b>MATHEMATICS → NETWORKS → MOLECULAR SYSTEMS → RELIABLE SCIENTIFIC AI</b></p>
+<p align="center"><b>MATHEMATICS → NETWORKS → MOLECULAR SYSTEMS → RELIABLE SCIENTIFIC EVIDENCE</b></p>
 
 ---
 
-## Selected open research programs
+## Current frontier
 
 <table>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility" title="Open VELE Power-Grid repository"><img src="assets/project-vele.svg" alt="VELE Power-Grid Vulnerability Screening" width="100%" /></a>
+<a href="https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability" title="Open Mutation Geodesic Shielding repository"><img src="assets/project-mgsc.svg" alt="Mutation Geodesic Shielding for Protein Stability" width="100%" /></a>
+<br/><b>Mutation-conditioned graph geometry for residue-network susceptibility</b>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/SunilgarGusai/Assam-Road-Inspection-Benchmark" title="Open Assam Road Inspection Benchmark"><img src="assets/project-assam.svg" alt="Assam Road Inspection Benchmark" width="100%" /></a>
+<br/><b>Leakage-controlled flood-road inspection under transfer and budget constraints</b>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility" title="Open Claim-Evidence Consistency repository"><img src="assets/project-claim-evidence.svg" alt="Claim–Evidence Consistency in Labeled Graphs" width="100%" /></a>
+<br/><b>Complexity, verification certificates and correction in labeled evidence graphs</b>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/SunilgarGusai/global-msw-reliability-under-shift" title="Open Global MSW Reliability repository"><img src="assets/project-msw.svg" alt="Global MSW Reliability Under Geographic Shift" width="100%" /></a>
+<br/><b>Geographic transfer, uncertainty and decision reliability in global waste-service prediction</b>
+</td>
+</tr>
+</table>
+
+## Established open research
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility"><img src="assets/project-vele.svg" alt="VELE Power-Grid Vulnerability Screening" width="100%" /></a>
 <br/><b>Structural screening validated against physical network behaviour</b>
 </td>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility" title="Open EGFR Graph QSAR repository"><img src="assets/project-egfr.svg" alt="EGFR Graph QSAR Representation Limits" width="100%" /></a>
+<a href="https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility"><img src="assets/project-egfr.svg" alt="EGFR Graph QSAR Representation Limits" width="100%" /></a>
 <br/><b>Where classical molecular graph representations lose chemical identity</b>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/applicability-gated-molecular-ai" title="Open applicability-gated molecular AI repository"><img src="assets/project-agrr.svg" alt="Applicability-Gated Molecular AI" width="100%" /></a>
+<a href="https://github.com/SunilgarGusai/applicability-gated-molecular-ai"><img src="assets/project-agrr.svg" alt="Applicability-Gated Molecular AI" width="100%" /></a>
 <br/><b>Learning when a scientific rule should be trusted, corrected or audited</b>
 </td>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility" title="Open conformal prediction repository"><img src="assets/project-conformal.svg" alt="Calibration Transfer of Conformal Prediction" width="100%" /></a>
+<a href="https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility"><img src="assets/project-conformal.svg" alt="Calibration Transfer of Conformal Prediction" width="100%" /></a>
 <br/><b>Uncertainty calibration under composition and distribution shift</b>
 </td>
 </tr>
 </table>
 
-<p align="center"><sub>Each research cover opens the corresponding public reproducibility repository.</sub></p>
+<p align="center"><sub>Every research cover opens the corresponding public reproducibility repository.</sub></p>
+
+---
+
+## Published & accepted scholarship
+
+### Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs
+**Sunilgar Gusai** · *International Journal of Scientific Development and Research*, **11**(9), b394–b402, September 2026  
+[![DOI](https://img.shields.io/badge/DOI-10.56975%2Fijsdr.v11i9.311920-3B82F6?style=flat-square)](https://doi.org/10.56975/ijsdr.v11i9.311920)  
+`Wiener index` · `Harary index` · `edge deletion` · `network vulnerability`
+
+### Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security
+*Computer and Decision Making (COMDEM)* · **Accepted for publication, 30 Sep 2026** · Manuscript **CDM_121**  
+`Explainable ML` · `cybersecurity` · `adaptive threat detection`
+
+### Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices
+**Sunilgar L. Gusai** · *International Journal of Science and Research*, **15**, 681–686, 2026  
+`Spectral bounds` · `graph matrices`
+
+### On Vertex Eccentricity Labeled Energy of a Graph
+**Sunilgar Gusai, Vinodray Kaneria, Manoharsinh Jadeja** · *International Journal of Basic and Applied Sciences*, **14**(4), 339–350, 2025  
+[![DOI](https://img.shields.io/badge/DOI-10.14419%2Fqtfv0860-3B82F6?style=flat-square)](https://doi.org/10.14419/qtfv0860)  
+`VELE` · `spectral graph theory` · `graph energy`
+
+<details>
+<summary><b>🧭 Selected current manuscript pipeline · snapshot 03 Oct 2026</b></summary>
+<br/>
+
+- **Under review:** Explainable Graph Machine Learning for Leakage-Controlled Pre-Failure Edge Screening — *Applied Soft Computing*.
+- **Under review:** Budgeted Eccentricity Reduction in Graphs — *Discrete Applied Mathematics*.
+- **Under review:** Learning When to Trust Fallible Scientific Rules — *Artificial Intelligence and Applications*.
+- **Under review:** Vertex Eccentricity Labeled Energy of Corona Graphs — *Communications in Mathematics and Applications*.
+- **Submitted:** Chronology-Aware Reliable Semiconductor Quality Prediction with Calibrated Selective Machine Learning — *ITEGAM-JETIA*.
+- **Submitted:** Certified Top-k Closeness Rankings under Interval Edge-Weight Uncertainty — *IAENG International Journal of Applied Mathematics*.
+- **Submitted:** Fault-Tolerant Test-Bank Design under Item Withdrawal — *IAENG International Journal of Applied Mathematics*.
+- **Submitted:** Calibration Transfer of Conformal Prediction for Concrete Strength Across SCM Composition Regimes — *Journal of Computers, Mechanical and Management*.
+- **Submitted:** Sharp Defect Bounds for the Sombor Index under Degree-Preserving Edge Switches — *Note di Matematica*.
+
+<sub>Status is intentionally conservative. Editorial decisions supersede the research tracker when the two differ.</sub>
+</details>
 
 ---
 
@@ -88,19 +156,6 @@
 
 ---
 
-<details open>
-<summary><b>📚 Selected scholarly work</b></summary>
-<br/>
-
-### On Vertex Eccentricity Labeled Energy of a Graph
-**Sunilgar Gusai, Vinodray Kaneria, Manoharsinh Jadeja**  
-*International Journal of Basic and Applied Sciences*, **14**(4), 339–350, 2025  
-[![DOI](https://img.shields.io/badge/DOI-10.14419%2Fqtfv0860-3B82F6?style=flat-square)](https://doi.org/10.14419/qtfv0860)
-
-My continuing VELE work studies structural properties, spectral behaviour, graph operations and network-oriented applications of eccentricity-driven graph-energy measures.
-
-</details>
-
 <details>
 <summary><b>🎓 Teaching & academic work</b></summary>
 <br/>
@@ -108,15 +163,13 @@ My continuing VELE work studies structural properties, spectral behaviour, graph
 `Linear Algebra` · `Calculus` · `Discrete Mathematics` · `Operations Research` · `Probability` · `Statistics` · `Applied Mathematics` · `Optimization`
 
 I also contribute to academic coordination, curriculum work, examinations, student mentoring, research collaboration and institutional service.
-
 </details>
 
 <details>
 <summary><b>🤝 Collaboration directions</b></summary>
 <br/>
 
-I am open to serious academic collaboration in spectral and extremal graph theory, graph energy, network resilience, molecular graph descriptors, QSPR/QSAR, reliable scientific machine learning, uncertainty quantification and reproducible computational research.
-
+I am open to serious academic collaboration in spectral and extremal graph theory, graph energy, formal graph methods, network resilience, molecular and biomolecular graph modelling, QSPR/QSAR, reliable scientific machine learning, uncertainty quantification, evidence verification and reproducible computational research.
 </details>
 
 ---
@@ -126,4 +179,4 @@ I am open to serious academic collaboration in spectral and extremal graph theor
   <a href="https://marwadiuniversity.irins.org/profile/521348"><img src="https://img.shields.io/badge/INSTITUTIONAL_PROFILE-MARWADI_UNIVERSITY-6D5DFC?style=for-the-badge" alt="Institutional Profile" /></a>
 </p>
 
-<p align="center"><b>Rajkot, Gujarat, India</b><br/>Mathematics → Networks → Molecular Systems → Reliable Scientific AI</p>
+<p align="center"><b>Rajkot, Gujarat, India</b><br/>Mathematics → Networked Systems → Molecular & Biomolecular Graphs → Reliable Scientific Evidence</p>
