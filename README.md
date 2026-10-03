@@ -26,11 +26,11 @@
 
 > **8 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
-### 🌍 [Global MSW Reliability Under Geographic Shift](https://github.com/SunilgarGusai/global-msw-reliability-under-shift)
+### 🔬 [Global MSW Reliability Under Geographic Shift](https://github.com/SunilgarGusai/global-msw-reliability-under-shift)
 **Most recently active public research project** · latest push **03 Oct 2026**
 
 **Recent research trail**  
-`03 Oct` **Global MSW Reliability** → `03 Oct` **Claim–Evidence Consistency** → `03 Oct` **Mutation Geodesic Shielding** → `03 Oct` **Assam Road Inspection**
+`03 Oct` **Global MSW Reliability Under Geographic Shift** → `03 Oct` **Claim–Evidence Consistency in Labeled Graphs** → `03 Oct` **Mutation Geodesic Shielding for Protein Stability** → `03 Oct` **Assam Road Inspection Benchmark**
 <!-- OBSERVATORY:END -->
 
 ---
