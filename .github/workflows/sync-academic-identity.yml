@@ -40,6 +40,11 @@ jobs:
       - name: Pull canonical academic identity and update controlled blocks
         run: python .github/scripts/sync_profile_from_master.py
 
+      - name: Refresh live research signal from the same master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/update_research_status.py
+
       - name: Preview synchronization on pull requests
         if: github.event_name == 'pull_request'
         run: git diff -- README.md || true
