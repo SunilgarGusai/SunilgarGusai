@@ -27,11 +27,11 @@
 
 > **8 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
-### 🌍 [Global MSW Reliability Under Geographic Shift](https://github.com/SunilgarGusai/global-msw-reliability-under-shift)
-**Most recently active public research project** · latest push **03 Oct 2026**
+### ◎ [Applicability-Gated Molecular AI](https://github.com/SunilgarGusai/applicability-gated-molecular-ai)
+**Most recently active public research project** · latest push **05 Oct 2026**
 
 **Recent research trail**  
-`03 Oct` **Global MSW Reliability** → `03 Oct` **Claim–Evidence Consistency** → `03 Oct` **Mutation Geodesic Shielding** → `03 Oct` **Assam Road Inspection**
+`05 Oct` **Applicability-Gated Molecular AI** → `03 Oct` **Global MSW Reliability** → `03 Oct` **Claim–Evidence Consistency** → `03 Oct` **Mutation Geodesic Shielding**
 <!-- OBSERVATORY:END -->
 
 ---
