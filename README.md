@@ -27,11 +27,11 @@
 
 > **8 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
-### ⬡ [EGFR Graph QSAR — Representation Limits](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility)
-**Most recently active public research project** · latest push **05 Oct 2026**
+### 🌍 [Global MSW Reliability Under Geographic Shift](https://github.com/SunilgarGusai/global-msw-reliability-under-shift)
+**Most recently active public research project** · latest push **06 Oct 2026**
 
 **Recent research trail**  
-`05 Oct` **EGFR Graph QSAR** → `05 Oct` **Applicability-Gated Molecular AI** → `03 Oct` **Global MSW Reliability** → `03 Oct` **Claim–Evidence Consistency**
+`06 Oct` **Global MSW Reliability** → `06 Oct` **VELE Power-Grid** → `06 Oct` **Claim–Evidence Consistency** → `06 Oct` **Applicability-Gated Molecular AI**
 <!-- OBSERVATORY:END -->
 
 ---
