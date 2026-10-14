@@ -27,11 +27,11 @@
 
 > **8 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
-### ⬡ [EGFR Graph QSAR — Representation Limits](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility)
-**Most recently active public research project** · latest push **06 Oct 2026**
+### 🧬 [Mutation Geodesic Shielding for Protein Stability](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability)
+**Most recently active public research project** · latest push **14 Oct 2026**
 
 **Recent research trail**  
-`06 Oct` **EGFR Graph QSAR** → `06 Oct` **Global MSW Reliability** → `06 Oct` **VELE Power-Grid** → `06 Oct` **Claim–Evidence Consistency**
+`14 Oct` **Mutation Geodesic Shielding** → `06 Oct` **EGFR Graph QSAR** → `06 Oct` **Global MSW Reliability** → `06 Oct` **VELE Power-Grid**
 <!-- OBSERVATORY:END -->
 
 ---
