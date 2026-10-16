@@ -25,13 +25,13 @@
 <!-- OBSERVATORY:START -->
 ## ◉ Current research signal
 
-> **8 public research programmes** · **4 connected research directions** · **Open reproducibility**
+> **9 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
-### 🧬 [Mutation Geodesic Shielding for Protein Stability](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability)
-**Most recently active public research project** · latest push **14 Oct 2026**
+### 🔬 [operation marked route spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra)
+**Most recently active public research project** · latest push **16 Oct 2026**
 
 **Recent research trail**  
-`14 Oct` **Mutation Geodesic Shielding** → `06 Oct` **EGFR Graph QSAR** → `06 Oct` **Global MSW Reliability** → `06 Oct` **VELE Power-Grid**
+`16 Oct` **operation marked route spectra** → `14 Oct` **Mutation Geodesic Shielding** → `06 Oct` **EGFR Graph QSAR** → `06 Oct` **Global MSW Reliability**
 <!-- OBSERVATORY:END -->
 
 ---
