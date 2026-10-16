@@ -51,6 +51,19 @@
 
 ---
 
+## Newest public programme
+
+<p align="center">
+  <a href="https://github.com/SunilgarGusai/operation-marked-route-spectra" title="Open Operation-Marked Eccentricity-Weighted Route Spectra repository">
+    <img src="https://raw.githubusercontent.com/SunilgarGusai/operation-marked-route-spectra/main/docs/assets/repository-banner.svg" alt="Operation-Marked Eccentricity-Weighted Route Spectra" width="100%" />
+  </a>
+</p>
+
+<p align="center"><b>Operation-Marked Eccentricity-Weighted Route Spectra</b><br/>
+Two explicit infinite families of seven-vertex seed DAGs · four exact proof suites · weighted route spectra separate constructions that ordinary route spectra can leave indistinguishable.</p>
+
+<p align="center"><sub>Mathematics-first research · symbolic certificates · exploratory NAS evidence explicitly bounded · repository opens from the banner.</sub></p>
+
 ## Current frontier
 
 <table>
@@ -107,6 +120,12 @@
 
 <!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:START -->
 ## Published & accepted scholarship
+
+### Reciprocal Irregularity Under Partial Edge Subdivision
+**Gusai Sunilgar Laxmangar** · *International Journal of Advanced Multidisciplinary Research and Studies*, **6**(5), 1336–1341, September–October 2026  
+[![Article](https://img.shields.io/badge/ARTICLE-PUBLISHED-2563EB?style=flat-square)](https://www.multiresearchjournal.com/arclist/list-2026.6.5/id-7021)  
+`graph irregularity` · `edge subdivision` · `graph operations`  
+<sub>DOI metadata pending; no DOI is claimed here.</sub>
 
 ### Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs
 **Sunilgar Gusai** · *International Journal of Scientific Development and Research*, **11**(9), b394–b402, September 2026  

@@ -80,6 +80,11 @@ def render_publications(data: dict) -> str:
                 f'[![DOI](https://img.shields.io/badge/DOI-{badge}-3B82F6?style=flat-square)]'
                 f'(https://doi.org/{doi})  '
             )
+        elif item.get("publication_url") and item.get("show_publication_url", {}).get("github_profile", True):
+            lines.append(
+                f'[![Article](https://img.shields.io/badge/ARTICLE-PUBLISHED-2563EB?style=flat-square)]'
+                f'({item["publication_url"]})  '
+            )
 
         tags = item.get("tags", [])
         if tags:
