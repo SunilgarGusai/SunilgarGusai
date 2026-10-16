@@ -27,11 +27,11 @@
 
 > **9 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
-### 🔬 [operation marked route spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra)
+### λ [Operation-Marked Eccentricity-Weighted Route Spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra)
 **Most recently active public research project** · latest push **16 Oct 2026**
 
 **Recent research trail**  
-`16 Oct` **operation marked route spectra** → `14 Oct` **Mutation Geodesic Shielding** → `06 Oct` **EGFR Graph QSAR** → `06 Oct` **Global MSW Reliability**
+`16 Oct` **Operation-Marked Route Spectra** → `14 Oct` **Mutation Geodesic Shielding** → `06 Oct` **EGFR Graph QSAR** → `06 Oct` **Global MSW Reliability**
 <!-- OBSERVATORY:END -->
 
 ---
@@ -122,10 +122,9 @@ Two explicit infinite families of seven-vertex seed DAGs · four exact proof sui
 ## Published & accepted scholarship
 
 ### Reciprocal Irregularity Under Partial Edge Subdivision
-**Gusai Sunilgar Laxmangar** · *International Journal of Advanced Multidisciplinary Research and Studies*, **6**(5), 1336–1341, September–October 2026  
+**Gusai Sunilgar Laxmangar** · *International Journal of Advanced Multidisciplinary Research and Studies*, **6**(5), 1336–1341, Sep–Oct 2026  
 [![Article](https://img.shields.io/badge/ARTICLE-PUBLISHED-2563EB?style=flat-square)](https://www.multiresearchjournal.com/arclist/list-2026.6.5/id-7021)  
-`graph irregularity` · `edge subdivision` · `graph operations`  
-<sub>DOI metadata pending; no DOI is claimed here.</sub>
+`graph irregularity` · `edge subdivision` · `graph operations`
 
 ### Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs
 **Sunilgar Gusai** · *International Journal of Scientific Development and Research*, **11**(9), b394–b402, September 2026  
