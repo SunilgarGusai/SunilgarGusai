@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-<title id="title">Dr. Sunilgar L. Gusai — Research Observatory</title>
+<title id="title">Dr. Sunilgar L. Gusai — Academic Research</title>
 <desc id="desc">Animated academic research banner connecting mathematics, networks, molecular systems and reliable scientific AI.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -24,7 +24,7 @@
 <path d="M0 360 C180 320 300 405 470 355 S780 310 1200 360" fill="none" stroke="#7dd3fc" stroke-opacity=".10" stroke-width="2"/>
 <path d="M0 378 C190 338 340 412 520 370 S850 335 1200 384" fill="none" stroke="#d78cff" stroke-opacity=".08" stroke-width="2"/>
 
-<text x="58" y="66" fill="#9ab8dc" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3.4">RESEARCH OBSERVATORY</text>
+<text x="58" y="66" fill="#9ab8dc" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3.4">MATHEMATICS · NETWORKS · SCIENTIFIC AI</text>
 <text x="58" y="126" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="50" font-weight="800">Dr. Sunilgar L. Gusai</text>
 <rect x="58" y="147" width="520" height="3" rx="2" fill="url(#line)"/>
 <text x="58" y="190" fill="#b7c9e4" font-family="Arial,Helvetica,sans-serif" font-size="20">Assistant Professor · Ph.D. Mathematics · Graph Theorist</text>

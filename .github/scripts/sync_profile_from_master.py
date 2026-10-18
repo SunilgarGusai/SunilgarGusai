@@ -65,41 +65,39 @@ def render_role(data: dict) -> str:
 
 
 def render_publications(data: dict) -> str:
-    """Compact scholarly record; journal status comes only from the canonical master."""
+    """Write normal scholarly citations rather than machine-like status labels."""
     items = [x for x in data["scholarship"] if x["visibility"]["github_profile"]]
-    lines = ["## Published research", ""]
+    lines = ["## Publications", ""]
     for item in items:
         title = item["title"]
-        url = None
         if item.get("doi") and item.get("show_doi", {}).get("github_profile", True):
             url = "https://doi.org/" + item["doi"]
         elif item.get("publication_url") and item.get("show_publication_url", {}).get("github_profile", True):
             url = item["publication_url"]
-        label = f"[{title}]({url})" if url else f"**{title}**"
-        venue = item["venue"]
+        else:
+            url = None
+        link = f"[{title}]({url})" if url else title
         detail = item.get("citation_detail", str(item["year"]))
-        status = "Accepted" if item["status"] == "accepted" else "Published"
-        lines.append(f"- **{status}** · {label}. *{venue}*, {detail}.")
-    lines.append("")
-    lines.append("Full citation details and the latest CV are available from the [academic portfolio](https://sunilgargusai.github.io/sunilgar-portfolio/#publications).")
+        if item["status"] == "accepted":
+            lines.append(f"- **{link}.** *{item['venue']}*. Accepted for publication.")
+        else:
+            lines.append(f"- {link}. *{item['venue']}*, {detail}.")
+    lines += ["", "For additional publication details, please see my [academic CV](https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf)."]
     return "\n".join(lines).rstrip()
 
 
 def render_teaching_role(data: dict) -> str:
+    """Keep institutional responsibilities concise and first person."""
     ident = data["public_identity"]
-    roles = {x["id"]: x for x in data["roles"]}
-    labels = []
-
-    for role_id in ident.get("profile_leadership_role_ids", []):
-        role = roles.get(role_id)
-        if role and role.get("visibility", {}).get("github_profile"):
-            labels.append(role.get("profile_sentence_title", role["title"]))
-
-    if not labels:
-        return "I contribute to teaching, curriculum work, student mentoring, research collaboration and institutional service."
-
-    lead = labels[0] if len(labels) == 1 else ", ".join(labels[:-1]) + " and " + labels[-1]
-    return f'I serve as {lead}, {ident["profile_teaching_tail"]}'
+    role_map = {x["id"]: x for x in data["roles"]}
+    active = [role_map[role_id]["title"]
+              for role_id in ident.get("profile_leadership_role_ids", [])
+              if role_id in role_map and role_map[role_id].get("visibility", {}).get("github_profile")]
+    if active:
+        return ("At Marwadi University, I also serve as " +
+                " and ".join(active) +
+                ". These responsibilities complement my work in teaching, mentoring and research.")
+    return "I contribute to teaching, student mentoring and academic research at Marwadi University."
 
 
 def main() -> None:

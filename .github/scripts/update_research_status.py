@@ -88,6 +88,12 @@ No public research repository is currently available.
 
 
 def main():
+    # Personal academic biography is deliberately curated, not an activity feed.
+    # Older profiles may retain legacy OBSERVATORY markers; new profiles do not.
+    text = README.read_text(encoding="utf-8")
+    if START not in text and END not in text:
+        return
+
     repos = get_repos()
     catalog = get_catalog()
     research = [

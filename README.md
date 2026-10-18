@@ -1,14 +1,14 @@
 <p align="center">
-  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/" title="Open academic portfolio">
-    <img src="assets/observatory-hero.svg" alt="Dr. Sunilgar L. Gusai — Research Observatory" width="100%" />
+  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/">
+    <img src="assets/observatory-hero.svg" alt="Dr. Sunilgar L. Gusai — Mathematics, Graph Theory and Scientific Computing" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/#observatory"><b>Interactive research portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf">Academic CV</a> &nbsp;·&nbsp;
-  <a href="https://orcid.org/0009-0004-0739-4812">ORCID</a> &nbsp;·&nbsp;
-  <a href="https://www.scopus.com/authid/detail.uri?authorId=60059223900">Scopus</a> &nbsp;·&nbsp;
+  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/">Website</a> ·
+  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf">Curriculum vitae</a> ·
+  <a href="https://orcid.org/0009-0004-0739-4812">ORCID</a> ·
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=60059223900">Scopus</a> ·
   <a href="https://linkedin.com/in/dr-sunilgar-gusai">LinkedIn</a>
 </p>
 
@@ -18,85 +18,66 @@
 </p>
 <!-- ACADEMIC_SYNC:PROFILE_ROLE:END -->
 
-<p align="center">
-  <b>Mathematical structure → networked systems → molecular & biomolecular graphs → reliable scientific evidence</b>
-</p>
+## About me
 
-<!-- OBSERVATORY:START -->
-## ◉ Current research signal
+I am a mathematician and an Assistant Professor at Marwadi University, Rajkot. My research began in **spectral graph theory**, particularly graph energy, eccentricity-based invariants and structural questions about graphs. I continue to work on these mathematical problems while exploring their connections with complex networks, molecular structures and data-driven scientific models.
 
-> **9 public research programmes** · **4 connected research directions** · **Open reproducibility**
+I enjoy research that brings together a precise mathematical question and a careful computational investigation. In my collaborative work, I value clear proofs, reproducible experiments and an equally clear account of what the evidence does—and does not—establish.
 
-### ◈ [Claim–Evidence Consistency in Labeled Graphs](https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility)
-**Most recently active public research project** · latest push **17 Oct 2026**
+## Research interests
 
-**Recent research trail**  
-`17 Oct` **Claim–Evidence Consistency** → `16 Oct` **Operation-Marked Route Spectra** → `14 Oct` **Mutation Geodesic Shielding** → `06 Oct` **EGFR Graph QSAR**
-<!-- OBSERVATORY:END -->
+- **Graph theory and spectral methods.** I study graph energy, eccentricity-related matrices and invariants, extremal problems, and structural and algorithmic questions.
+- **Networks and resilience.** I investigate how network structure relates to vulnerability, edge failure and decisions in infrastructure systems.
+- **Molecular and biomolecular graphs.** My work includes molecular graph descriptors, structure–property modelling and residue-network geometry.
+- **Scientific machine learning.** I am interested in how uncertainty, representation limits and the quality of evidence affect the reliability of computational conclusions.
 
----
+## Research projects
 
-## Research directions
+A selection of my ongoing and publicly documented work is available below.
 
-Graph theory and formal methods connect to networks, molecular structures and reliability-focused scientific AI. The [3D observatory](https://sunilgargusai.github.io/sunilgar-portfolio/#observatory) is an optional visual way to explore the programmes.
+**Graph theory and mathematical methods**
 
-## Current feature
+- [Operation-Marked Eccentricity-Weighted Route Spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra) — spectral questions for operation-labelled feedforward architecture graphs, including exact symbolic results.
+- [Claim–Evidence Consistency in Labeled Graphs](https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility) — graph-theoretic models for consistency, verification and correction.
 
-**[Operation-Marked Eccentricity-Weighted Route Spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra)** — exact spectral constructions for operation-labelled feedforward graphs. Includes two infinite seed families and four symbolic proof suites. The exploratory NAS analysis is not presented as predictive superiority.
+**Network systems**
 
-## Open research repositories
+- [VELE Power-Grid Vulnerability Screening](https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility) — testing eccentricity-sensitive graph information for network vulnerability screening.
+- [Assam Road Inspection Benchmark](https://github.com/SunilgarGusai/Assam-Road-Inspection-Benchmark) — geographically informed inspection priorities for flood-exposed road networks.
 
-| Research direction | Programmes and reproducibility repositories |
-|:--|:--|
-| **Graph Theory & Formal Methods** | [Operation-Marked Route Spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra) · [Claim–Evidence Consistency](https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility) |
-| **Networked Systems & Resilience** | [Assam Road Inspection](https://github.com/SunilgarGusai/Assam-Road-Inspection-Benchmark) · [VELE Power-Grid](https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility) |
-| **Molecular & Biomolecular Graphs** | [Mutation Geodesic Shielding](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability) · [EGFR Graph QSAR](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility) |
-| **Reliable Scientific AI & Evidence** | [Global MSW Reliability](https://github.com/SunilgarGusai/global-msw-reliability-under-shift) · [Applicability-Gated Molecular AI](https://github.com/SunilgarGusai/applicability-gated-molecular-ai) · [Conformal Prediction](https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility) |
+**Molecular and biomolecular research**
 
-All nine projects link directly to their own research records. Published results and exploratory findings are labelled separately.
+- [Mutation Geodesic Shielding for Protein Stability](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability) — local geometry of protein residue networks in the context of mutations.
+- [EGFR Graph QSAR](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility) — examining the descriptive capabilities and limits of molecular graph representations.
 
----
+**Reliable scientific modelling**
+
+- [Applicability-Gated Molecular AI](https://github.com/SunilgarGusai/applicability-gated-molecular-ai) — studying when scientific rules can be trusted, corrected or set aside.
+- [Calibration Transfer of Conformal Prediction](https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility) — predictive uncertainty under distributional differences.
+- [Global MSW Reliability Under Geographic Shift](https://github.com/SunilgarGusai/global-msw-reliability-under-shift) — evaluating model reliability across geographic contexts.
 
 <!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:START -->
-## Published research
+## Publications
 
-- **Published** · [Reciprocal Irregularity Under Partial Edge Subdivision](https://www.multiresearchjournal.com/arclist/list-2026.6.5/id-7021). *International Journal of Advanced Multidisciplinary Research and Studies*, 6(5), 1336–1341, September–October 2026.
-- **Published** · [Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs](https://doi.org/10.56975/ijsdr.v11i9.311920). *International Journal of Scientific Development and Research*, 11(9), b394–b402, September 2026.
-- **Published** · [Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security](https://comdem.org/index.php/comdem/article/view/18726). *Computer and Decision Making: An International Journal*, 3(5S), 89–102, October 2026.
-- **Published** · **Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices**. *International Journal of Science and Research*, Vol. 15, pp. 681–686, 2026.
-- **Published** · [On Vertex Eccentricity Labeled Energy of a Graph](https://doi.org/10.14419/qtfv0860). *International Journal of Basic and Applied Sciences*, 14(4), 339–350, 2025.
+- [Reciprocal Irregularity Under Partial Edge Subdivision](https://www.multiresearchjournal.com/arclist/list-2026.6.5/id-7021). *International Journal of Advanced Multidisciplinary Research and Studies*, 6(5), 1336–1341, September–October 2026.
+- [Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs](https://doi.org/10.56975/ijsdr.v11i9.311920). *International Journal of Scientific Development and Research*, 11(9), b394–b402, September 2026.
+- [Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security](https://comdem.org/index.php/comdem/article/view/18726). *Computer and Decision Making: An International Journal*, 3(5S), 89–102, October 2026.
+- Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices. *International Journal of Science and Research*, Vol. 15, pp. 681–686, 2026.
+- [On Vertex Eccentricity Labeled Energy of a Graph](https://doi.org/10.14419/qtfv0860). *International Journal of Basic and Applied Sciences*, 14(4), 339–350, 2025.
 
-Full citation details and the latest CV are available from the [academic portfolio](https://sunilgargusai.github.io/sunilgar-portfolio/#publications).
+For additional publication details, please see my [academic CV](https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf).
 <!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:END -->
----
 
-**Research practice:** reproducible computation, independent validation, traceable evidence, and limitations stated explicitly.
-
----
-
-<details>
-<summary><b>🎓 Teaching & academic work</b></summary>
-<br/>
-
-`Linear Algebra` · `Calculus` · `Discrete Mathematics` · `Operations Research` · `Probability` · `Statistics` · `Applied Mathematics` · `Optimization`
+## Teaching and academic responsibilities
 
 <!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:START -->
-I serve as Program Head for Data Science Programs and Area Chair for Advanced Computing, alongside teaching, curriculum work, timetable coordination, examinations, student mentoring, research collaboration and institutional service.
+At Marwadi University, I also serve as Program Head for Data Science Programs and Area Chair for Advanced Computing. These responsibilities complement my work in teaching, mentoring and research.
 <!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:END -->
-</details>
 
-<details>
-<summary><b>🤝 Collaboration directions</b></summary>
-<br/>
+My teaching includes **Linear Algebra, Calculus, Discrete Mathematics, Probability, Statistics, Operations Research and Applied Mathematics**. I am particularly interested in helping students connect mathematical foundations with real computational problems.
 
-I am open to serious academic collaboration in spectral and extremal graph theory, graph energy, formal graph methods, network resilience, molecular and biomolecular graph modelling, QSPR/QSAR, reliable scientific machine learning, uncertainty quantification, evidence verification and reproducible computational research.
-</details>
+## Collaboration
 
----
+I welcome academic collaborations in graph theory, network science, mathematical chemistry, scientific computing and related areas where complementary expertise can lead to meaningful results.
 
-<p align="center">
-  <a href="mailto:dr.sunilgargusai@gmail.com"><img src="https://img.shields.io/badge/EMAIL-RESEARCH_COLLABORATION-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://marwadiuniversity.irins.org/profile/521348"><img src="https://img.shields.io/badge/INSTITUTIONAL_PROFILE-MARWADI_UNIVERSITY-6D5DFC?style=for-the-badge" alt="Institutional Profile" /></a>
-</p>
-
-<p align="center"><b>Marwadi University · Rajkot, India</b></p>
+**Contact:** [dr.sunilgargusai@gmail.com](mailto:dr.sunilgargusai@gmail.com) · [Marwadi University profile](https://marwadiuniversity.irins.org/profile/521348)
