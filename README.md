@@ -27,11 +27,11 @@
 
 > **9 public research programmes** · **4 connected research directions** · **Open reproducibility**
 
-### λ [Operation-Marked Eccentricity-Weighted Route Spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra)
-**Most recently active public research project** · latest push **16 Oct 2026**
+### ◈ [Claim–Evidence Consistency in Labeled Graphs](https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility)
+**Most recently active public research project** · latest push **17 Oct 2026**
 
 **Recent research trail**  
-`16 Oct` **Operation-Marked Route Spectra** → `14 Oct` **Mutation Geodesic Shielding** → `06 Oct` **EGFR Graph QSAR** → `06 Oct` **Global MSW Reliability**
+`17 Oct` **Claim–Evidence Consistency** → `16 Oct` **Operation-Marked Route Spectra** → `14 Oct` **Mutation Geodesic Shielding** → `06 Oct` **EGFR Graph QSAR**
 <!-- OBSERVATORY:END -->
 
 ---
