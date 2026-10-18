@@ -57,21 +57,21 @@ A selection of my ongoing and publicly documented work is available below.
 - [Global MSW Reliability Under Geographic Shift](https://github.com/SunilgarGusai/global-msw-reliability-under-shift) — evaluating model reliability across geographic contexts.
 
 <!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:START -->
-## Published research
+## Publications
 
-- **Published** · [Reciprocal Irregularity Under Partial Edge Subdivision](https://www.multiresearchjournal.com/arclist/list-2026.6.5/id-7021). *International Journal of Advanced Multidisciplinary Research and Studies*, 6(5), 1336–1341, September–October 2026.
-- **Published** · [Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs](https://doi.org/10.56975/ijsdr.v11i9.311920). *International Journal of Scientific Development and Research*, 11(9), b394–b402, September 2026.
-- **Published** · [Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security](https://comdem.org/index.php/comdem/article/view/18726). *Computer and Decision Making: An International Journal*, 3(5S), 89–102, October 2026.
-- **Published** · **Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices**. *International Journal of Science and Research*, Vol. 15, pp. 681–686, 2026.
-- **Published** · [On Vertex Eccentricity Labeled Energy of a Graph](https://doi.org/10.14419/qtfv0860). *International Journal of Basic and Applied Sciences*, 14(4), 339–350, 2025.
+- [Reciprocal Irregularity Under Partial Edge Subdivision](https://www.multiresearchjournal.com/arclist/list-2026.6.5/id-7021). *International Journal of Advanced Multidisciplinary Research and Studies*, 6(5), 1336–1341, September–October 2026.
+- [Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs](https://doi.org/10.56975/ijsdr.v11i9.311920). *International Journal of Scientific Development and Research*, 11(9), b394–b402, September 2026.
+- [Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security](https://comdem.org/index.php/comdem/article/view/18726). *Computer and Decision Making: An International Journal*, 3(5S), 89–102, October 2026.
+- Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices. *International Journal of Science and Research*, Vol. 15, pp. 681–686, 2026.
+- [On Vertex Eccentricity Labeled Energy of a Graph](https://doi.org/10.14419/qtfv0860). *International Journal of Basic and Applied Sciences*, 14(4), 339–350, 2025.
 
-Full citation details and the latest CV are available from the [academic portfolio](https://sunilgargusai.github.io/sunilgar-portfolio/#publications).
+For additional publication details, please see my [academic CV](https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf).
 <!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:END -->
 
 ## Teaching and academic responsibilities
 
 <!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:START -->
-I serve as Program Head for Data Science Programs and Area Chair for Advanced Computing, alongside teaching, curriculum work, timetable coordination, examinations, student mentoring, research collaboration and institutional service.
+At Marwadi University, I also serve as Program Head for Data Science Programs and Area Chair for Advanced Computing. These responsibilities complement my work in teaching, mentoring and research.
 <!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:END -->
 
 My teaching includes **Linear Algebra, Calculus, Discrete Mathematics, Probability, Statistics, Operations Research and Applied Mathematics**. I am particularly interested in helping students connect mathematical foundations with real computational problems.
