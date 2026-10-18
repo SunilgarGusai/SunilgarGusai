@@ -71,7 +71,7 @@ For additional publication details, please see my [academic CV](https://sunilgar
 ## Teaching and academic responsibilities
 
 <!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:START -->
-At Marwadi University, I also serve as Program Head for Data Science Programs and Area Chair for Advanced Computing. These responsibilities complement my work in teaching, mentoring and research.
+At Marwadi University, I also serve as Program Head, Data Science Programs and Area Chair — Advanced Computing. These responsibilities complement my work in teaching, mentoring and research.
 <!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:END -->
 
 My teaching includes **Linear Algebra, Calculus, Discrete Mathematics, Probability, Statistics, Operations Research and Applied Mathematics**. I am particularly interested in helping students connect mathematical foundations with real computational problems.
