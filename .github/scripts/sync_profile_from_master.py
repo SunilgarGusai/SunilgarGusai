@@ -65,32 +65,23 @@ def render_role(data: dict) -> str:
 
 
 def render_publications(data: dict) -> str:
+    """Compact scholarly record; journal status comes only from the canonical master."""
     items = [x for x in data["scholarship"] if x["visibility"]["github_profile"]]
-    lines = ["## Published & accepted scholarship", ""]
-    tick = chr(96)
-
+    lines = ["## Published research", ""]
     for item in items:
-        lines.append(f'### {item["title"]}')
-        lines.append(item["profile_summary_line"] + "  ")
-
+        title = item["title"]
+        url = None
         if item.get("doi") and item.get("show_doi", {}).get("github_profile", True):
-            doi = item["doi"]
-            badge = doi.replace("/", "%2F").replace("-", "--")
-            lines.append(
-                f'[![DOI](https://img.shields.io/badge/DOI-{badge}-3B82F6?style=flat-square)]'
-                f'(https://doi.org/{doi})  '
-            )
+            url = "https://doi.org/" + item["doi"]
         elif item.get("publication_url") and item.get("show_publication_url", {}).get("github_profile", True):
-            lines.append(
-                f'[![Article](https://img.shields.io/badge/ARTICLE-PUBLISHED-2563EB?style=flat-square)]'
-                f'({item["publication_url"]})  '
-            )
-
-        tags = item.get("tags", [])
-        if tags:
-            lines.append(" · ".join(f"{tick}{tag.lower()}{tick}" for tag in tags))
-        lines.append("")
-
+            url = item["publication_url"]
+        label = f"[{title}]({url})" if url else f"**{title}**"
+        venue = item["venue"]
+        detail = item.get("citation_detail", str(item["year"]))
+        status = "Accepted" if item["status"] == "accepted" else "Published"
+        lines.append(f"- **{status}** · {label}. *{venue}*, {detail}.")
+    lines.append("")
+    lines.append("Full citation details and the latest CV are available from the [academic portfolio](https://sunilgargusai.github.io/sunilgar-portfolio/#publications).")
     return "\n".join(lines).rstrip()
 
 
