@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://sunilgargusai.github.io/sunilgar-portfolio/">
-    <img src="assets/observatory-hero.svg" alt="Dr. Sunilgar L. Gusai — Mathematics, Graph Theory and Scientific Computing" width="100%" />
+    <img src="assets/research-banner.svg" alt="Dr. Sunilgar L. Gusai — Mathematics, Graph Theory and Scientific Computing" width="100%" />
   </a>
 </p>
 
@@ -33,28 +33,38 @@ I enjoy research that brings together a precise mathematical question and a care
 
 ## Research projects
 
-A selection of my ongoing and publicly documented work is available below.
+My publicly available research materials span four related areas: graph theory, network systems, molecular and biomolecular graphs, and scientific machine learning. These repositories include mathematical results, computational experiments and reproducibility materials.
 
-**Graph theory and mathematical methods**
+### Featured mathematical research
 
-- [Operation-Marked Eccentricity-Weighted Route Spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra) — spectral questions for operation-labelled feedforward architecture graphs, including exact symbolic results.
-- [Claim–Evidence Consistency in Labeled Graphs](https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility) — graph-theoretic models for consistency, verification and correction.
+<p align="center">
+  <a href="https://github.com/SunilgarGusai/operation-marked-route-spectra">
+    <img src="assets/project-operation-spectra.svg" alt="Operation-Marked Eccentricity-Weighted Route Spectra — directed graphs and weighted route spectra" width="100%" />
+  </a>
+</p>
 
-**Network systems**
+I study how operation-labelled directed architectures can have indistinguishable ordinary route spectra while differing under eccentricity-weighted route operators. The [research repository](https://github.com/SunilgarGusai/operation-marked-route-spectra) contains exact mathematical constructions and verification materials.
 
-- [VELE Power-Grid Vulnerability Screening](https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility) — testing eccentricity-sensitive graph information for network vulnerability screening.
-- [Assam Road Inspection Benchmark](https://github.com/SunilgarGusai/Assam-Road-Inspection-Benchmark) — geographically informed inspection priorities for flood-exposed road networks.
+### Selected research programmes
 
-**Molecular and biomolecular research**
-
-- [Mutation Geodesic Shielding for Protein Stability](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability) — local geometry of protein residue networks in the context of mutations.
-- [EGFR Graph QSAR](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility) — examining the descriptive capabilities and limits of molecular graph representations.
-
-**Reliable scientific modelling**
-
-- [Applicability-Gated Molecular AI](https://github.com/SunilgarGusai/applicability-gated-molecular-ai) — studying when scientific rules can be trusted, corrected or set aside.
-- [Calibration Transfer of Conformal Prediction](https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility) — predictive uncertainty under distributional differences.
-- [Global MSW Reliability Under Geographic Shift](https://github.com/SunilgarGusai/global-msw-reliability-under-shift) — evaluating model reliability across geographic contexts.
+<table>
+<tr>
+<td width="50%" valign="top" align="center"><a href="https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability"><img src="assets/project-mgsc.svg" alt="Mutation Geodesic Shielding for Protein Stability" width="100%"/></a><br/><sub>Residue-network geometry around mutations</sub></td>
+<td width="50%" valign="top" align="center"><a href="https://github.com/SunilgarGusai/Assam-Road-Inspection-Benchmark"><img src="assets/project-assam.svg" alt="Assam Road Inspection Benchmark" width="100%"/></a><br/><sub>Flood-road inspection and transfer evaluation</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center"><a href="https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility"><img src="assets/project-claim-evidence.svg" alt="Claim–Evidence Consistency in Labeled Graphs" width="100%"/></a><br/><sub>Graph-theoretic consistency and verification</sub></td>
+<td width="50%" valign="top" align="center"><a href="https://github.com/SunilgarGusai/global-msw-reliability-under-shift"><img src="assets/project-msw.svg" alt="Global MSW Reliability Under Geographic Shift" width="100%"/></a><br/><sub>Geographic transfer and predictive reliability</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center"><a href="https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility"><img src="assets/project-vele.svg" alt="VELE Power-Grid Vulnerability Screening" width="100%"/></a><br/><sub>Graph spectra and electrical vulnerability</sub></td>
+<td width="50%" valign="top" align="center"><a href="https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility"><img src="assets/project-egfr.svg" alt="EGFR Graph QSAR" width="100%"/></a><br/><sub>Representation limits of molecular descriptors</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center"><a href="https://github.com/SunilgarGusai/applicability-gated-molecular-ai"><img src="assets/project-agrr.svg" alt="Applicability-Gated Molecular AI" width="100%"/></a><br/><sub>Scientific rules and applicability under shift</sub></td>
+<td width="50%" valign="top" align="center"><a href="https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility"><img src="assets/project-conformal.svg" alt="Calibration Transfer of Conformal Prediction" width="100%"/></a><br/><sub>Uncertainty calibration across composition regimes</sub></td>
+</tr>
+</table>
 
 <!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:START -->
 ## Publications
