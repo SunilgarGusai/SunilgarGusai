@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-OPEN-2563EB?style=for-the-badge" alt="Portfolio" /></a>
-  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf"><img src="https://img.shields.io/badge/CV-LATEST-334155?style=for-the-badge&logo=readme&logoColor=white" alt="Latest CV" /></a>
-  <a href="https://orcid.org/0009-0004-0739-4812"><img src="https://img.shields.io/badge/ORCID-0009--0004--0739--4812-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
-  <a href="https://www.scopus.com/authid/detail.uri?authorId=60059223900"><img src="https://img.shields.io/badge/SCOPUS-AUTHOR-E9711C?style=for-the-badge" alt="Scopus" /></a>
-  <a href="https://linkedin.com/in/dr-sunilgar-gusai"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/#observatory"><b>Interactive research portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf">Academic CV</a> &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0004-0739-4812">ORCID</a> &nbsp;·&nbsp;
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=60059223900">Scopus</a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/dr-sunilgar-gusai">LinkedIn</a>
 </p>
 
 <!-- ACADEMIC_SYNC:PROFILE_ROLE:START -->
@@ -36,128 +36,41 @@
 
 ---
 
-## Research coordinates
+## Research directions
 
-<table>
-<tr>
-<td align="center" width="25%"><h3>λ Graph Theory & Formal Methods</h3><b>Spectral · structural · extremal · algorithms · certificates</b></td>
-<td align="center" width="25%"><h3>⌘ Networked Systems & Resilience</h3><b>Power grids · road networks · failure impact · climate hazards</b></td>
-<td align="center" width="25%"><h3>⬡ Molecular & Biomolecular Graphs</h3><b>QSAR · descriptors · residue networks · mutation geometry</b></td>
-<td align="center" width="25%"><h3>◎ Reliable Scientific AI & Evidence</h3><b>Shift · uncertainty · calibration · evidence consistency</b></td>
-</tr>
-</table>
+Graph theory and formal methods connect to networks, molecular structures and reliability-focused scientific AI. The [3D observatory](https://sunilgargusai.github.io/sunilgar-portfolio/#observatory) is an optional visual way to explore the programmes.
 
-<p align="center"><b>MATHEMATICS → NETWORKS → MOLECULAR SYSTEMS → RELIABLE SCIENTIFIC EVIDENCE</b></p>
+## Current feature
 
----
+**[Operation-Marked Eccentricity-Weighted Route Spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra)** — exact spectral constructions for operation-labelled feedforward graphs. Includes two infinite seed families and four symbolic proof suites. The exploratory NAS analysis is not presented as predictive superiority.
 
-## Newest public programme
+## Open research repositories
 
-<p align="center">
-  <a href="https://github.com/SunilgarGusai/operation-marked-route-spectra" title="Open Operation-Marked Eccentricity-Weighted Route Spectra repository">
-    <img src="https://raw.githubusercontent.com/SunilgarGusai/operation-marked-route-spectra/main/docs/assets/repository-banner.svg" alt="Operation-Marked Eccentricity-Weighted Route Spectra" width="100%" />
-  </a>
-</p>
+| Research direction | Programmes and reproducibility repositories |
+|:--|:--|
+| **Graph Theory & Formal Methods** | [Operation-Marked Route Spectra](https://github.com/SunilgarGusai/operation-marked-route-spectra) · [Claim–Evidence Consistency](https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility) |
+| **Networked Systems & Resilience** | [Assam Road Inspection](https://github.com/SunilgarGusai/Assam-Road-Inspection-Benchmark) · [VELE Power-Grid](https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility) |
+| **Molecular & Biomolecular Graphs** | [Mutation Geodesic Shielding](https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability) · [EGFR Graph QSAR](https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility) |
+| **Reliable Scientific AI & Evidence** | [Global MSW Reliability](https://github.com/SunilgarGusai/global-msw-reliability-under-shift) · [Applicability-Gated Molecular AI](https://github.com/SunilgarGusai/applicability-gated-molecular-ai) · [Conformal Prediction](https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility) |
 
-<p align="center"><b>Operation-Marked Eccentricity-Weighted Route Spectra</b><br/>
-Two explicit infinite families of seven-vertex seed DAGs · four exact proof suites · weighted route spectra separate constructions that ordinary route spectra can leave indistinguishable.</p>
-
-<p align="center"><sub>Mathematics-first research · symbolic certificates · exploratory NAS evidence explicitly bounded · repository opens from the banner.</sub></p>
-
-## Current frontier
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/mutation-geodesic-shielding-protein-stability" title="Open Mutation Geodesic Shielding repository"><img src="assets/project-mgsc.svg" alt="Mutation Geodesic Shielding for Protein Stability" width="100%" /></a>
-<br/><b>Mutation-conditioned graph geometry for residue-network susceptibility</b>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/Assam-Road-Inspection-Benchmark" title="Open Assam Road Inspection Benchmark"><img src="assets/project-assam.svg" alt="Assam Road Inspection Benchmark" width="100%" /></a>
-<br/><b>Leakage-controlled flood-road inspection under transfer and budget constraints</b>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/Claim-Evidence-Consistency-Reproducibility" title="Open Claim-Evidence Consistency repository"><img src="assets/project-claim-evidence.svg" alt="Claim–Evidence Consistency in Labeled Graphs" width="100%" /></a>
-<br/><b>Complexity, verification certificates and correction in labeled evidence graphs</b>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/global-msw-reliability-under-shift" title="Open Global MSW Reliability repository"><img src="assets/project-msw.svg" alt="Global MSW Reliability Under Geographic Shift" width="100%" /></a>
-<br/><b>Geographic transfer, uncertainty and decision reliability in global waste-service prediction</b>
-</td>
-</tr>
-</table>
-
-## Established open research
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/VELE-PowerGrid-Reproducibility"><img src="assets/project-vele.svg" alt="VELE Power-Grid Vulnerability Screening" width="100%" /></a>
-<br/><b>Structural screening validated against physical network behaviour</b>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/EGFR-Graph-QSAR-Reproducibility"><img src="assets/project-egfr.svg" alt="EGFR Graph QSAR Representation Limits" width="100%" /></a>
-<br/><b>Where classical molecular graph representations lose chemical identity</b>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/applicability-gated-molecular-ai"><img src="assets/project-agrr.svg" alt="Applicability-Gated Molecular AI" width="100%" /></a>
-<br/><b>Learning when a scientific rule should be trusted, corrected or audited</b>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/SunilgarGusai/PAPER-JCMM-reproducibility"><img src="assets/project-conformal.svg" alt="Calibration Transfer of Conformal Prediction" width="100%" /></a>
-<br/><b>Uncertainty calibration under composition and distribution shift</b>
-</td>
-</tr>
-</table>
-
-<p align="center"><sub>Every research cover opens the corresponding public reproducibility repository.</sub></p>
+All nine projects link directly to their own research records. Published results and exploratory findings are labelled separately.
 
 ---
 
 <!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:START -->
-## Published & accepted scholarship
+## Published research
 
-### Reciprocal Irregularity Under Partial Edge Subdivision
-**Gusai Sunilgar Laxmangar** · *International Journal of Advanced Multidisciplinary Research and Studies*, **6**(5), 1336–1341, Sep–Oct 2026  
-[![Article](https://img.shields.io/badge/ARTICLE-PUBLISHED-2563EB?style=flat-square)](https://www.multiresearchjournal.com/arclist/list-2026.6.5/id-7021)  
-`graph irregularity` · `edge subdivision` · `graph operations`
+- **Published** · [Reciprocal Irregularity Under Partial Edge Subdivision](https://www.multiresearchjournal.com/arclist/list-2026.6.5/id-7021). *International Journal of Advanced Multidisciplinary Research and Studies*, 6(5), 1336–1341, September–October 2026.
+- **Published** · [Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs](https://doi.org/10.56975/ijsdr.v11i9.311920). *International Journal of Scientific Development and Research*, 11(9), b394–b402, September 2026.
+- **Published** · [Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security](https://comdem.org/index.php/comdem/article/view/18726). *Computer and Decision Making: An International Journal*, 3(5S), 89–102, October 2026.
+- **Published** · **Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices**. *International Journal of Science and Research*, Vol. 15, pp. 681–686, 2026.
+- **Published** · [On Vertex Eccentricity Labeled Energy of a Graph](https://doi.org/10.14419/qtfv0860). *International Journal of Basic and Applied Sciences*, 14(4), 339–350, 2025.
 
-### Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs
-**Sunilgar Gusai** · *International Journal of Scientific Development and Research*, **11**(9), b394–b402, September 2026  
-[![DOI](https://img.shields.io/badge/DOI-10.56975%2Fijsdr.v11i9.311920-3B82F6?style=flat-square)](https://doi.org/10.56975/ijsdr.v11i9.311920)  
-`wiener index` · `harary index` · `edge failure`
-
-### Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security
-*Computer and Decision Making (COMDEM)* · **Accepted for publication, 30 Sep 2026** · Manuscript **CDM_121**  
-`explainable ml` · `cybersecurity` · `adaptive detection`
-
-### Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices
-**Sunilgar L. Gusai** · *International Journal of Science and Research*, **15**, 681–686, 2026  
-`spectral bounds` · `graph matrices`
-
-### On Vertex Eccentricity Labeled Energy of a Graph
-**Sunilgar Gusai, Vinodray Kaneria, Manoharsinh Jadeja** · *International Journal of Basic and Applied Sciences*, **14**(4), 339–350, 2025  
-[![DOI](https://img.shields.io/badge/DOI-10.14419%2Fqtfv0860-3B82F6?style=flat-square)](https://doi.org/10.14419/qtfv0860)  
-`vele` · `spectral graph theory` · `graph energy`
+Full citation details and the latest CV are available from the [academic portfolio](https://sunilgargusai.github.io/sunilgar-portfolio/#publications).
 <!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:END -->
 ---
 
-## Research standard
-
-<table>
-<tr>
-<td width="25%" align="center"><b>REPRODUCE</b><br/>Executable workflows<br/>Pinned environments</td>
-<td width="25%" align="center"><b>VALIDATE</b><br/>Independent checks<br/>Sensitivity analysis</td>
-<td width="25%" align="center"><b>TRACE</b><br/>Data provenance<br/>Machine-readable outputs</td>
-<td width="25%" align="center"><b>RESTRAIN</b><br/>Negative findings retained<br/>Claims stay within evidence</td>
-</tr>
-</table>
-
-> **Research principle:** rigorous mathematics, transparent computation, inspectable evidence, and explicit limitations.
+**Research practice:** reproducible computation, independent validation, traceable evidence, and limitations stated explicitly.
 
 ---
 
@@ -186,4 +99,4 @@ I am open to serious academic collaboration in spectral and extremal graph theor
   <a href="https://marwadiuniversity.irins.org/profile/521348"><img src="https://img.shields.io/badge/INSTITUTIONAL_PROFILE-MARWADI_UNIVERSITY-6D5DFC?style=for-the-badge" alt="Institutional Profile" /></a>
 </p>
 
-<p align="center"><b>Rajkot, Gujarat, India</b><br/>Mathematics → Networked Systems → Molecular & Biomolecular Graphs → Reliable Scientific Evidence</p>
+<p align="center"><b>Marwadi University · Rajkot, India</b></p>
