@@ -71,8 +71,8 @@ I study how operation-labelled directed architectures can have indistinguishable
 
 - [Reciprocal Irregularity Under Partial Edge Subdivision](https://www.multiresearchjournal.com/arclist/list-2026.6.5/id-7021). *International Journal of Advanced Multidisciplinary Research and Studies*, 6(5), 1336–1341, September–October 2026.
 - [Edge Failure Sensitivity of Wiener and Harary Indices in Classical Network Graphs](https://doi.org/10.56975/ijsdr.v11i9.311920). *International Journal of Scientific Development and Research*, 11(9), b394–b402, September 2026.
-- [Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security](https://comdem.org/index.php/comdem/article/view/18726). *Computer and Decision Making: An International Journal*, 3(5S), 89–102, October 2026.
-- Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices. *International Journal of Science and Research*, Vol. 15, pp. 681–686, 2026.
+- [Explainable Machine Learning for Real-Time Cyber Threat Detection: An Intelligent Framework for Adaptive Information Security](https://doi.org/10.1922/comdem.v3i5S.18726). *Computer and Decision Making: An International Journal*, 3(5S), 89–102, October 2026. [Scopus record](https://www.scopus.com/record/display.uri?eid=2-s2.0-105053835294).
+- [Eccentricity-Based Bounds for the Spectral Radius of Graph Matrices](https://doi.org/10.21275/SR26109233300). *International Journal of Science and Research*, Vol. 15, pp. 681–686, 2026.
 - [On Vertex Eccentricity Labeled Energy of a Graph](https://doi.org/10.14419/qtfv0860). *International Journal of Basic and Applied Sciences*, 14(4), 339–350, 2025.
 
 For additional publication details, please see my [academic CV](https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf).
