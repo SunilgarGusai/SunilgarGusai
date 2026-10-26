@@ -81,7 +81,12 @@ def render_publications(data: dict) -> str:
         if item["status"] == "accepted":
             lines.append(f"- **{link}.** *{item['venue']}*. Accepted for publication.")
         else:
-            lines.append(f"- {link}. *{item['venue']}*, {detail}.")
+            scopus_link = (
+                f" [Scopus record](https://www.scopus.com/record/display.uri?eid={item['scopus_eid']})."
+                if item.get("scopus_eid")
+                else ""
+            )
+            lines.append(f"- {link}. *{item['venue']}*, {detail}.{scopus_link}")
     lines += ["", "For additional publication details, please see my [academic CV](https://sunilgargusai.github.io/sunilgar-portfolio/assets/CV_DR_Sunilgar_L_Gusai.pdf)."]
     return "\n".join(lines).rstrip()
 
