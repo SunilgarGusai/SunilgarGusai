@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from datetime import date
 import os
 import re
 import urllib.request
@@ -18,6 +19,8 @@ PUB_START = "<!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:START -->"
 PUB_END = "<!-- ACADEMIC_SYNC:PROFILE_PUBLICATIONS:END -->"
 TEACH_START = "<!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:START -->"
 TEACH_END = "<!-- ACADEMIC_SYNC:PROFILE_TEACHING_ROLE:END -->"
+MEM_START = "<!-- ACADEMIC_SYNC:PROFILE_MEMBERSHIPS:START -->"
+MEM_END = "<!-- ACADEMIC_SYNC:PROFILE_MEMBERSHIPS:END -->"
 
 
 def fetch_master() -> dict:
@@ -105,6 +108,23 @@ def render_teaching_role(data: dict) -> str:
     return "I contribute to teaching, student mentoring and academic research at Marwadi University."
 
 
+def render_memberships(data: dict) -> str:
+    """Publish only the professional organization and actual membership designation."""
+    members = [m for m in data.get("professional_memberships", [])
+               if m.get("visibility", {}).get("github_profile")]
+    lines = ["## Professional memberships", ""]
+    for m in members:
+        if m.get("since"):
+            since_date = date.fromisoformat(m["since"]).strftime("%d %B %Y").lstrip("0")
+            period = f"since {since_date}"
+        else:
+            period = m["period"].replace(" -- ", "–").lower()
+        lines.append(
+            f'- **{m["organization"]} ({m["acronym"]})** — {m["designation"]} ({period}).'
+        )
+    return "\n".join(lines)
+
+
 def main() -> None:
     data = fetch_master()
     text = README.read_text(encoding="utf-8")
@@ -113,6 +133,7 @@ def main() -> None:
     updated = replace_marked(text, ROLE_START, ROLE_END, render_role(data))
     updated = replace_marked(updated, PUB_START, PUB_END, render_publications(data))
     updated = replace_marked(updated, TEACH_START, TEACH_END, render_teaching_role(data))
+    updated = replace_marked(updated, MEM_START, MEM_END, render_memberships(data))
 
     if updated != text:
         README.write_text(updated, encoding="utf-8")
