@@ -86,6 +86,13 @@ At Marwadi University, I also serve as Program Head, Data Science Programs and A
 
 My teaching includes **Linear Algebra, Calculus, Discrete Mathematics, Probability, Statistics, Operations Research and Applied Mathematics**. I am particularly interested in helping students connect mathematical foundations with real computational problems.
 
+<!-- ACADEMIC_SYNC:PROFILE_MEMBERSHIPS:START -->
+## Professional memberships
+
+- **Association for Computing Machinery (ACM)** — Professional Member (2026–present).
+- **International Association of Engineers (IAENG)** — Member (since 28 October 2026).
+<!-- ACADEMIC_SYNC:PROFILE_MEMBERSHIPS:END -->
+
 ## Collaboration
 
 I welcome academic collaborations in graph theory, network science, mathematical chemistry, scientific computing and related areas where complementary expertise can lead to meaningful results.
